@@ -1,1 +1,2559 @@
-@font-face{font-family:gnome;src:url("../dist/gnome.eot?44613358");src:url("../dist/gnome.eot?44613358#iefix") format("embedded-opentype"),url("../dist/gnome.woff2?44613358") format("woff2"),url("../dist/gnome.woff?44613358") format("woff"),url("../dist/gnome.ttf?44613358") format("truetype"),url("../dist/gnome.svg?44613358#gnome") format("svg");font-weight:400;font-style:normal}[class*=" gnome-icon-"]:before,[class^=gnome-icon-]:before{font-family:gnome;font-style:normal;font-weight:400;speak:never;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.gnome-icon-action-unavailable:before{content:"\e800"}.gnome-icon-address-book-new:before{content:"\e801"}.gnome-icon-application-exit-rtl:before{content:"\e802"}.gnome-icon-application-exit:before{content:"\e803"}.gnome-icon-application-exit-rtl:before{content:"\e804"}.gnome-icon-appointment-new:before{content:"\e805"}.gnome-icon-bookmark-new:before{content:"\e806"}.gnome-icon-call-start:before{content:"\e807"}.gnome-icon-call-stop:before{content:"\e808"}.gnome-icon-camera-switch:before{content:"\e809"}.gnome-icon-chat-message-new:before{content:"\e80a"}.gnome-icon-color-select:before{content:"\e80b"}.gnome-icon-contact-new:before{content:"\e80c"}.gnome-icon-document-edit:before{content:"\e80d"}.gnome-icon-document-new:before{content:"\e80e"}.gnome-icon-document-open-recent:before{content:"\e80f"}.gnome-icon-document-open:before{content:"\e810"}.gnome-icon-document-page-setup:before{content:"\e811"}.gnome-icon-document-print-preview:before{content:"\e812"}.gnome-icon-document-print:before{content:"\e813"}.gnome-icon-document-properties:before{content:"\e814"}.gnome-icon-document-revert-rtl:before{content:"\e815"}.gnome-icon-document-revert:before{content:"\e816"}.gnome-icon-document-revert-rtl:before{content:"\e817"}.gnome-icon-document-save-as:before{content:"\e818"}.gnome-icon-document-save:before{content:"\e819"}.gnome-icon-document-send:before{content:"\e81a"}.gnome-icon-edit-clear-all:before{content:"\e81b"}.gnome-icon-edit-clear-rtl:before{content:"\e81c"}.gnome-icon-edit-clear:before{content:"\e81d"}.gnome-icon-edit-clear-rtl:before{content:"\e81e"}.gnome-icon-edit-copy:before{content:"\e81f"}.gnome-icon-edit-cut:before{content:"\e820"}.gnome-icon-edit-delete:before{content:"\e821"}.gnome-icon-edit-find-replace:before{content:"\e822"}.gnome-icon-edit-find:before{content:"\e823"}.gnome-icon-edit-paste:before{content:"\e824"}.gnome-icon-edit-redo:before{content:"\e825"}.gnome-icon-edit-redo-rtl:before{content:"\e826"}.gnome-icon-edit-select-all:before{content:"\e827"}.gnome-icon-edit-select:before{content:"\e828"}.gnome-icon-edit-undo:before{content:"\e829"}.gnome-icon-edit-undo-rtl:before{content:"\e82a"}.gnome-icon-error-correct:before{content:"\e82b"}.gnome-icon-find-location:before{content:"\e82c"}.gnome-icon-folder-new:before{content:"\e82d"}.gnome-icon-font-select:before{content:"\e82e"}.gnome-icon-format-indent-less-rtl:before{content:"\e82f"}.gnome-icon-format-indent-less:before{content:"\e830"}.gnome-icon-format-indent-less-rtl:before{content:"\e831"}.gnome-icon-format-indent-more-rtl:before{content:"\e832"}.gnome-icon-format-indent-more:before{content:"\e833"}.gnome-icon-format-indent-more-rtl:before{content:"\e834"}.gnome-icon-format-justify-center:before{content:"\e835"}.gnome-icon-format-justify-fill:before{content:"\e836"}.gnome-icon-format-justify-left:before{content:"\e837"}.gnome-icon-format-justify-right:before{content:"\e838"}.gnome-icon-format-text-bold:before{content:"\e839"}.gnome-icon-format-text-direction-ltr:before{content:"\e83a"}.gnome-icon-format-text-direction-rtl:before{content:"\e83b"}.gnome-icon-format-text-direction:before{content:"\e83c"}.gnome-icon-format-text-direction-rtl:before{content:"\e83d"}.gnome-icon-format-text-italic:before{content:"\e83e"}.gnome-icon-format-text-plaintext:before{content:"\e83f"}.gnome-icon-format-text-rich:before{content:"\e840"}.gnome-icon-format-text-strikethrough:before{content:"\e841"}.gnome-icon-format-text-underline:before{content:"\e842"}.gnome-icon-go-bottom:before{content:"\e843"}.gnome-icon-go-down:before{content:"\e844"}.gnome-icon-go-first:before{content:"\e845"}.gnome-icon-go-first-rtl:before{content:"\e846"}.gnome-icon-go-home:before{content:"\e847"}.gnome-icon-go-jump-rtl:before{content:"\e848"}.gnome-icon-go-jump:before{content:"\e849"}.gnome-icon-go-jump-rtl:before{content:"\e84a"}.gnome-icon-go-last:before{content:"\e84b"}.gnome-icon-go-last-rtl:before{content:"\e84c"}.gnome-icon-go-next:before{content:"\e84d"}.gnome-icon-go-next-rtl:before{content:"\e84e"}.gnome-icon-go-previous:before{content:"\e84f"}.gnome-icon-go-previous-rtl:before{content:"\e850"}.gnome-icon-go-top:before{content:"\e851"}.gnome-icon-go-up:before{content:"\e852"}.gnome-icon-help-about:before{content:"\e853"}.gnome-icon-insert-image:before{content:"\e854"}.gnome-icon-insert-link:before{content:"\e855"}.gnome-icon-insert-object:before{content:"\e856"}.gnome-icon-insert-text:before{content:"\e857"}.gnome-icon-list-add:before{content:"\e858"}.gnome-icon-list-remove-all:before{content:"\e859"}.gnome-icon-list-remove:before{content:"\e85a"}.gnome-icon-mail-forward:before{content:"\e85b"}.gnome-icon-mail-forward-rtl:before{content:"\e85c"}.gnome-icon-mail-mark-important:before{content:"\e85d"}.gnome-icon-mail-mark-junk:before{content:"\e85e"}.gnome-icon-mail-mark-notjunk:before{content:"\e85f"}.gnome-icon-mail-message-new:before{content:"\e860"}.gnome-icon-mail-reply-all-rtl:before{content:"\e861"}.gnome-icon-mail-reply-all:before{content:"\e862"}.gnome-icon-mail-reply-all-rtl:before{content:"\e863"}.gnome-icon-mail-reply-sender:before{content:"\e864"}.gnome-icon-mail-reply-sender-rtl:before{content:"\e865"}.gnome-icon-mail-send-receive:before{content:"\e866"}.gnome-icon-mail-send:before{content:"\e867"}.gnome-icon-mark-location:before{content:"\e868"}.gnome-icon-media-eject:before{content:"\e869"}.gnome-icon-media-playback-pause:before{content:"\e86a"}.gnome-icon-media-playback-start:before{content:"\e86b"}.gnome-icon-media-playback-stop:before{content:"\e86c"}.gnome-icon-media-record:before{content:"\e86d"}.gnome-icon-media-seek-backward:before{content:"\e86e"}.gnome-icon-media-seek-backward-rtl:before{content:"\e86f"}.gnome-icon-media-seek-forward:before{content:"\e870"}.gnome-icon-media-seek-forward-rtl:before{content:"\e871"}.gnome-icon-media-skip-backward:before{content:"\e872"}.gnome-icon-media-skip-backward-rtl:before{content:"\e873"}.gnome-icon-media-skip-forward:before{content:"\e874"}.gnome-icon-media-skip-forward-rtl:before{content:"\e875"}.gnome-icon-media-view-subtitles:before{content:"\e876"}.gnome-icon-object-flip-horizontal:before{content:"\e877"}.gnome-icon-object-flip-vertical:before{content:"\e878"}.gnome-icon-object-rotate-left:before{content:"\e879"}.gnome-icon-object-rotate-right:before{content:"\e87a"}.gnome-icon-object-select:before{content:"\e87b"}.gnome-icon-open-menu:before{content:"\e87c"}.gnome-icon-process-stop:before{content:"\e87d"}.gnome-icon-selection-mode:before{content:"\e87e"}.gnome-icon-send-to:before{content:"\e87f"}.gnome-icon-sidebar-show-right:before{content:"\e880"}.gnome-icon-sidebar-show-right-rtl:before{content:"\e881"}.gnome-icon-sidebar-show:before{content:"\e882"}.gnome-icon-sidebar-show-rtl:before{content:"\e883"}.gnome-icon-star-new:before{content:"\e884"}.gnome-icon-system-log-out-rtl:before{content:"\e885"}.gnome-icon-system-log-out:before{content:"\e886"}.gnome-icon-system-log-out-rtl:before{content:"\e887"}.gnome-icon-system-reboot:before{content:"\e888"}.gnome-icon-system-run:before{content:"\e889"}.gnome-icon-system-search:before{content:"\e88a"}.gnome-icon-system-shutdown:before{content:"\e88b"}.gnome-icon-system-switch-user-rtl:before{content:"\e88c"}.gnome-icon-system-switch-user:before{content:"\e88d"}.gnome-icon-system-switch-user-rtl:before{content:"\e88e"}.gnome-icon-tab-new:before{content:"\e88f"}.gnome-icon-tools-check-spelling:before{content:"\e890"}.gnome-icon-value-decrease:before{content:"\e891"}.gnome-icon-value-increase:before{content:"\e892"}.gnome-icon-view-app-grid:before{content:"\e893"}.gnome-icon-view-conceal:before{content:"\e894"}.gnome-icon-view-continuous:before{content:"\e895"}.gnome-icon-view-dual:before{content:"\e896"}.gnome-icon-view-fullscreen:before{content:"\e897"}.gnome-icon-view-grid:before{content:"\e898"}.gnome-icon-view-list-bullet-rtl:before{content:"\e899"}.gnome-icon-view-list-bullet:before{content:"\e89a"}.gnome-icon-view-list-bullet-rtl:before{content:"\e89b"}.gnome-icon-view-list-ordered-rtl:before{content:"\e89c"}.gnome-icon-view-list-ordered:before{content:"\e89d"}.gnome-icon-view-list-ordered-rtl:before{content:"\e89e"}.gnome-icon-view-list-rtl:before{content:"\e89f"}.gnome-icon-view-list:before{content:"\e8a0"}.gnome-icon-view-list-rtl:before{content:"\e8a1"}.gnome-icon-view-mirror:before{content:"\e8a2"}.gnome-icon-view-more-horizontal:before{content:"\e8a3"}.gnome-icon-view-more:before{content:"\e8a4"}.gnome-icon-view-paged-rtl:before{content:"\e8a5"}.gnome-icon-view-paged:before{content:"\e8a6"}.gnome-icon-view-paged-rtl:before{content:"\e8a7"}.gnome-icon-view-pin:before{content:"\e8a8"}.gnome-icon-view-refresh:before{content:"\e8a9"}.gnome-icon-view-restore:before{content:"\e8aa"}.gnome-icon-view-reveal:before{content:"\e8ab"}.gnome-icon-view-sort-ascending-rtl:before{content:"\e8ac"}.gnome-icon-view-sort-ascending:before{content:"\e8ad"}.gnome-icon-view-sort-ascending-rtl:before{content:"\e8ae"}.gnome-icon-view-sort-descending-rtl:before{content:"\e8af"}.gnome-icon-view-sort-descending:before{content:"\e8b0"}.gnome-icon-view-sort-descending-rtl:before{content:"\e8b1"}.gnome-icon-zoom-fit-best:before{content:"\e8b2"}.gnome-icon-zoom-in:before{content:"\e8b3"}.gnome-icon-zoom-original:before{content:"\e8b4"}.gnome-icon-zoom-out:before{content:"\e8b5"}.gnome-icon-help-contents:before{content:"\e8b6"}.gnome-icon-applications-engineering:before{content:"\e8b7"}.gnome-icon-applications-games:before{content:"\e8b8"}.gnome-icon-applications-graphics:before{content:"\e8b9"}.gnome-icon-applications-science:before{content:"\e8ba"}.gnome-icon-applications-system:before{content:"\e8bb"}.gnome-icon-emoji-activities:before{content:"\e8bc"}.gnome-icon-applications-utilities:before{content:"\e8bd"}.gnome-icon-emoji-flags:before{content:"\e8be"}.gnome-icon-emoji-food:before{content:"\e8bf"}.gnome-icon-emoji-objects:before{content:"\e8c0"}.gnome-icon-emoji-people:before{content:"\e8c1"}.gnome-icon-emoji-nature:before{content:"\e8c2"}.gnome-icon-emoji-recent:before{content:"\e8c3"}.gnome-icon-preferences-other:before{content:"\e8c4"}.gnome-icon-emoji-travel:before{content:"\e8c5"}.gnome-icon-system-help:before{content:"\e8c6"}.gnome-icon-applications-multimedia:before{content:"\e8c7"}.gnome-icon-emoji-body:before{content:"\e8c8"}.gnome-icon-emoji-symbols:before{content:"\e8c9"}.gnome-icon-preferences-system:before{content:"\e8ca"}.gnome-icon-ac-adapter:before{content:"\e8cb"}.gnome-icon-audio-card:before{content:"\e8cc"}.gnome-icon-audio-headphones:before{content:"\e8cd"}.gnome-icon-audio-headset:before{content:"\e8ce"}.gnome-icon-audio-input-microphone:before{content:"\e8cf"}.gnome-icon-audio-speakers-rtl:before{content:"\e8d0"}.gnome-icon-audio-speakers:before{content:"\e8d1"}.gnome-icon-audio-speakers-rtl:before{content:"\e8d2"}.gnome-icon-auth-face:before{content:"\e8d3"}.gnome-icon-auth-fingerprint:before{content:"\e8d4"}.gnome-icon-auth-sim:before{content:"\e8d5"}.gnome-icon-auth-smartcard:before{content:"\e8d6"}.gnome-icon-battery:before{content:"\e8d7"}.gnome-icon-bluetooth:before{content:"\e8d8"}.gnome-icon-camera-photo:before{content:"\e8d9"}.gnome-icon-camera-video:before{content:"\e8da"}.gnome-icon-camera-web:before{content:"\e8db"}.gnome-icon-colorimeter-colorhug:before{content:"\e8dc"}.gnome-icon-computer-apple-ipad:before{content:"\e8dd"}.gnome-icon-computer:before{content:"\e8de"}.gnome-icon-display-projector:before{content:"\e8df"}.gnome-icon-drive-harddisk-ieee1394:before{content:"\e8e0"}.gnome-icon-drive-harddisk-solidstate:before{content:"\e8e1"}.gnome-icon-drive-harddisk:before{content:"\e8e2"}.gnome-icon-drive-harddisk-system:before{content:"\e8e3"}.gnome-icon-drive-harddisk-usb:before{content:"\e8e4"}.gnome-icon-drive-multidisk:before{content:"\e8e5"}.gnome-icon-drive-optical:before{content:"\e8e6"}.gnome-icon-drive-removable-media:before{content:"\e8e7"}.gnome-icon-input-dialpad:before{content:"\e8e8"}.gnome-icon-input-gaming:before{content:"\e8e9"}.gnome-icon-input-keyboard:before{content:"\e8ea"}.gnome-icon-input-mouse:before{content:"\e8eb"}.gnome-icon-input-tablet:before{content:"\e8ec"}.gnome-icon-input-touchpad:before{content:"\e8ed"}.gnome-icon-media-flash:before{content:"\e8ee"}.gnome-icon-media-floppy:before{content:"\e8ef"}.gnome-icon-media-optical-bd:before{content:"\e8f0"}.gnome-icon-media-optical-cd-audio:before{content:"\e8f1"}.gnome-icon-media-optical-cd:before{content:"\e8f2"}.gnome-icon-media-optical-dvd:before{content:"\e8f3"}.gnome-icon-media-removable:before{content:"\e8f4"}.gnome-icon-media-tape:before{content:"\e8f5"}.gnome-icon-media-zip:before{content:"\e8f6"}.gnome-icon-media-optical:before{content:"\e8f7"}.gnome-icon-modem:before{content:"\e8f8"}.gnome-icon-multimedia-player-apple-ipod-touch:before{content:"\e8f9"}.gnome-icon-multimedia-player:before{content:"\e8fa"}.gnome-icon-network-cellular:before{content:"\e8fb"}.gnome-icon-network-wired:before{content:"\e8fc"}.gnome-icon-network-wireless:before{content:"\e8fd"}.gnome-icon-pda:before{content:"\e8fe"}.gnome-icon-phone-apple-iphone:before{content:"\e8ff"}.gnome-icon-phone-old:before{content:"\e900"}.gnome-icon-phone:before{content:"\e901"}.gnome-icon-printer-network:before{content:"\e902"}.gnome-icon-printer:before{content:"\e903"}.gnome-icon-scanner:before{content:"\e904"}.gnome-icon-tablet:before{content:"\e905"}.gnome-icon-thunderbolt:before{content:"\e906"}.gnome-icon-tv:before{content:"\e907"}.gnome-icon-uninterruptible-power-supply:before{content:"\e908"}.gnome-icon-video-display:before{content:"\e909"}.gnome-icon-video-joined-displays:before{content:"\e90a"}.gnome-icon-video-single-display:before{content:"\e90b"}.gnome-icon-emote-love:before{content:"\e90c"}.gnome-icon-face-angel:before{content:"\e90d"}.gnome-icon-face-angry:before{content:"\e90e"}.gnome-icon-face-cool:before{content:"\e90f"}.gnome-icon-face-devilish:before{content:"\e910"}.gnome-icon-face-embarrassed:before{content:"\e911"}.gnome-icon-face-glasses:before{content:"\e912"}.gnome-icon-face-laugh:before{content:"\e913"}.gnome-icon-face-kiss:before{content:"\e914"}.gnome-icon-face-monkey:before{content:"\e915"}.gnome-icon-face-plain:before{content:"\e916"}.gnome-icon-face-raspberry:before{content:"\e917"}.gnome-icon-face-sad:before{content:"\e918"}.gnome-icon-face-shutmouth:before{content:"\e919"}.gnome-icon-face-sick:before{content:"\e91a"}.gnome-icon-face-smile-big:before{content:"\e91b"}.gnome-icon-face-smirk:before{content:"\e91c"}.gnome-icon-face-tired:before{content:"\e91d"}.gnome-icon-face-surprise:before{content:"\e91e"}.gnome-icon-face-uncertain:before{content:"\e91f"}.gnome-icon-face-yawn:before{content:"\e920"}.gnome-icon-face-worried:before{content:"\e921"}.gnome-icon-face-confused:before{content:"\e922"}.gnome-icon-face-smile:before{content:"\e923"}.gnome-icon-face-crying:before{content:"\e924"}.gnome-icon-face-wink:before{content:"\e925"}.gnome-icon-accessories-calculator:before{content:"\e926"}.gnome-icon-accessories-character-map:before{content:"\e927"}.gnome-icon-accessories-dictionary:before{content:"\e928"}.gnome-icon-accessories-text-editor:before{content:"\e929"}.gnome-icon-applets-screenshooter:before{content:"\e92a"}.gnome-icon-battery-caution-charging:before{content:"\e92b"}.gnome-icon-battery-empty-charging:before{content:"\e92c"}.gnome-icon-battery-empty:before{content:"\e92d"}.gnome-icon-battery-full-charged:before{content:"\e92e"}.gnome-icon-battery-full-charging:before{content:"\e92f"}.gnome-icon-battery-full:before{content:"\e930"}.gnome-icon-battery-good-charging:before{content:"\e931"}.gnome-icon-battery-good:before{content:"\e932"}.gnome-icon-battery-low-charging:before{content:"\e933"}.gnome-icon-gnome-power-manager:before{content:"\e934"}.gnome-icon-goa-panel:before{content:"\e935"}.gnome-icon-help-browser:before{content:"\e936"}.gnome-icon-help-contents-1:before{content:"\e937"}.gnome-icon-help-faq:before{content:"\e938"}.gnome-icon-multimedia-volume-control:before{content:"\e939"}.gnome-icon-preferences-color:before{content:"\e93a"}.gnome-icon-preferences-desktop-accessibility:before{content:"\e93b"}.gnome-icon-preferences-desktop-appearance:before{content:"\e93c"}.gnome-icon-preferences-desktop-apps:before{content:"\e93d"}.gnome-icon-preferences-desktop-display:before{content:"\e93e"}.gnome-icon-preferences-desktop-font:before{content:"\e93f"}.gnome-icon-preferences-desktop-keyboard-shortcuts:before{content:"\e940"}.gnome-icon-preferences-desktop-keyboard:before{content:"\e941"}.gnome-icon-preferences-desktop-locale:before{content:"\e942"}.gnome-icon-preferences-desktop-multitasking:before{content:"\e943"}.gnome-icon-preferences-desktop-remote-desktop:before{content:"\e944"}.gnome-icon-preferences-desktop-screensaver:before{content:"\e945"}.gnome-icon-preferences-desktop-wallpaper:before{content:"\e946"}.gnome-icon-preferences-system-details:before{content:"\e947"}.gnome-icon-preferences-system-devices:before{content:"\e948"}.gnome-icon-preferences-system-network-proxy:before{content:"\e949"}.gnome-icon-preferences-system-network:before{content:"\e94a"}.gnome-icon-preferences-system-notifications:before{content:"\e94b"}.gnome-icon-preferences-system-parental-controls:before{content:"\e94c"}.gnome-icon-preferences-system-privacy:before{content:"\e94d"}.gnome-icon-preferences-system-search:before{content:"\e94e"}.gnome-icon-preferences-system-sharing:before{content:"\e94f"}.gnome-icon-preferences-system-time:before{content:"\e950"}.gnome-icon-system-file-manager:before{content:"\e951"}.gnome-icon-system-software-install:before{content:"\e952"}.gnome-icon-system-users:before{content:"\e953"}.gnome-icon-text-editor:before{content:"\e954"}.gnome-icon-user-info:before{content:"\e955"}.gnome-icon-utilities-terminal:before{content:"\e956"}.gnome-icon-web-browser:before{content:"\e957"}.gnome-icon-application-x-appliance:before{content:"\e958"}.gnome-icon-application-x-executable:before{content:"\e959"}.gnome-icon-application-x-firmware:before{content:"\e95a"}.gnome-icon-application-x-sharedlib:before{content:"\e95b"}.gnome-icon-audio-x-generic:before{content:"\e95c"}.gnome-icon-font-x-generic:before{content:"\e95d"}.gnome-icon-image-x-generic:before{content:"\e95e"}.gnome-icon-inode-directory:before{content:"\e95f"}.gnome-icon-package-x-generic:before{content:"\e960"}.gnome-icon-text-x-generic:before{content:"\e961"}.gnome-icon-video-x-generic:before{content:"\e962"}.gnome-icon-x-office-address-book:before{content:"\e963"}.gnome-icon-x-office-calendar:before{content:"\e964"}.gnome-icon-x-office-document:before{content:"\e965"}.gnome-icon-x-office-drawing:before{content:"\e966"}.gnome-icon-x-office-presentation:before{content:"\e967"}.gnome-icon-x-office-spreadsheet:before{content:"\e968"}.gnome-icon-application-certificate:before{content:"\e969"}.gnome-icon-application-rss+xml:before{content:"\e96a"}.gnome-icon-application-x-addon:before{content:"\e96b"}.gnome-icon-folder-download:before{content:"\e96c"}.gnome-icon-folder-documents:before{content:"\e96d"}.gnome-icon-folder-music:before{content:"\e96e"}.gnome-icon-folder-pictures:before{content:"\e96f"}.gnome-icon-folder-publicshare:before{content:"\e970"}.gnome-icon-folder-remote:before{content:"\e971"}.gnome-icon-folder-saved-search:before{content:"\e972"}.gnome-icon-folder:before{content:"\e973"}.gnome-icon-folder-templates:before{content:"\e974"}.gnome-icon-folder-videos:before{content:"\e975"}.gnome-icon-network-server:before{content:"\e976"}.gnome-icon-network-workgroup:before{content:"\e977"}.gnome-icon-start-here:before{content:"\e978"}.gnome-icon-user-bookmarks:before{content:"\e979"}.gnome-icon-user-desktop:before{content:"\e97a"}.gnome-icon-user-home:before{content:"\e97b"}.gnome-icon-user-trash:before{content:"\e97c"}.gnome-icon-airplane-mode-disabled:before{content:"\e97d"}.gnome-icon-airplane-mode:before{content:"\e97e"}.gnome-icon-alarm:before{content:"\e97f"}.gnome-icon-appointment-missed:before{content:"\e980"}.gnome-icon-appointment-soon:before{content:"\e981"}.gnome-icon-audio-volume-high-rtl:before{content:"\e982"}.gnome-icon-audio-volume-high:before{content:"\e983"}.gnome-icon-audio-volume-high-rtl:before{content:"\e984"}.gnome-icon-audio-volume-low-rtl:before{content:"\e985"}.gnome-icon-audio-volume-low:before{content:"\e986"}.gnome-icon-audio-volume-low-rtl:before{content:"\e987"}.gnome-icon-audio-volume-medium-rtl:before{content:"\e988"}.gnome-icon-audio-volume-medium:before{content:"\e989"}.gnome-icon-audio-volume-medium-rtl:before{content:"\e98a"}.gnome-icon-audio-volume-muted-rtl:before{content:"\e98b"}.gnome-icon-audio-volume-muted:before{content:"\e98c"}.gnome-icon-audio-volume-muted-rtl:before{content:"\e98d"}.gnome-icon-audio-volume-overamplified-rtl:before{content:"\e98e"}.gnome-icon-audio-volume-overamplified:before{content:"\e98f"}.gnome-icon-audio-volume-overamplified-rtl:before{content:"\e990"}.gnome-icon-auth-sim-locked:before{content:"\e991"}.gnome-icon-auth-sim-missing:before{content:"\e992"}.gnome-icon-avatar-default:before{content:"\e993"}.gnome-icon-battery-action:before{content:"\e994"}.gnome-icon-battery-caution:before{content:"\e995"}.gnome-icon-battery-level-0-charging:before{content:"\e996"}.gnome-icon-battery-level-0:before{content:"\e997"}.gnome-icon-battery-level-10-charging:before{content:"\e998"}.gnome-icon-battery-level-10:before{content:"\e999"}.gnome-icon-battery-level-20-charging:before{content:"\e99a"}.gnome-icon-battery-level-20:before{content:"\e99b"}.gnome-icon-battery-level-30-charging:before{content:"\e99c"}.gnome-icon-battery-level-30:before{content:"\e99d"}.gnome-icon-battery-level-40-charging:before{content:"\e99e"}.gnome-icon-battery-level-40:before{content:"\e99f"}.gnome-icon-battery-level-50-charging:before{content:"\e9a0"}.gnome-icon-battery-level-50:before{content:"\e9a1"}.gnome-icon-battery-level-60-charging:before{content:"\e9a2"}.gnome-icon-battery-level-60:before{content:"\e9a3"}.gnome-icon-battery-level-70-charging:before{content:"\e9a4"}.gnome-icon-battery-level-70:before{content:"\e9a5"}.gnome-icon-battery-level-80-charging:before{content:"\e9a6"}.gnome-icon-battery-level-80:before{content:"\e9a7"}.gnome-icon-battery-level-90-charging:before{content:"\e9a8"}.gnome-icon-battery-level-90:before{content:"\e9a9"}.gnome-icon-battery-level-100-charged:before{content:"\e9aa"}.gnome-icon-battery-level-100:before{content:"\e9ab"}.gnome-icon-battery-low:before{content:"\e9ac"}.gnome-icon-battery-missing:before{content:"\e9ad"}.gnome-icon-bluetooth-acquiring:before{content:"\e9ae"}.gnome-icon-bluetooth-active:before{content:"\e9af"}.gnome-icon-bluetooth-disabled:before{content:"\e9b0"}.gnome-icon-bluetooth-disconnected:before{content:"\e9b1"}.gnome-icon-bluetooth-hardware-disabled:before{content:"\e9b2"}.gnome-icon-call-incoming:before{content:"\e9b3"}.gnome-icon-call-missed:before{content:"\e9b4"}.gnome-icon-call-outgoing:before{content:"\e9b5"}.gnome-icon-camera-disabled:before{content:"\e9b6"}.gnome-icon-camera-hardware-disabled:before{content:"\e9b7"}.gnome-icon-changes-allow:before{content:"\e9b8"}.gnome-icon-changes-prevent:before{content:"\e9b9"}.gnome-icon-channel-insecure:before{content:"\e9ba"}.gnome-icon-channel-secure:before{content:"\e9bb"}.gnome-icon-computer-fail:before{content:"\e9bc"}.gnome-icon-content-loading:before{content:"\e9bd"}.gnome-icon-daytime-sunrise:before{content:"\e9be"}.gnome-icon-daytime-sunset:before{content:"\e9bf"}.gnome-icon-dialog-error:before{content:"\e9c0"}.gnome-icon-dialog-information:before{content:"\e9c1"}.gnome-icon-dialog-password:before{content:"\e9c2"}.gnome-icon-dialog-question:before{content:"\e9c3"}.gnome-icon-dialog-warning:before{content:"\e9c4"}.gnome-icon-display-brightness:before{content:"\e9c5"}.gnome-icon-folder-drag-accept:before{content:"\e9c6"}.gnome-icon-folder-open:before{content:"\e9c7"}.gnome-icon-folder-visiting:before{content:"\e9c8"}.gnome-icon-image-loading:before{content:"\e9c9"}.gnome-icon-image-missing:before{content:"\e9ca"}.gnome-icon-keyboard-brightness:before{content:"\e9cb"}.gnome-icon-location-services-active:before{content:"\e9cc"}.gnome-icon-location-services-disabled:before{content:"\e9cd"}.gnome-icon-mail-attachment:before{content:"\e9ce"}.gnome-icon-mail-read:before{content:"\e9cf"}.gnome-icon-mail-replied-rtl:before{content:"\e9d0"}.gnome-icon-mail-replied:before{content:"\e9d1"}.gnome-icon-mail-replied-rtl:before{content:"\e9d2"}.gnome-icon-mail-unread:before{content:"\e9d3"}.gnome-icon-media-playlist-consecutive:before{content:"\e9d4"}.gnome-icon-media-playlist-repeat-song:before{content:"\e9d5"}.gnome-icon-media-playlist-repeat:before{content:"\e9d6"}.gnome-icon-media-playlist-shuffle:before{content:"\e9d7"}.gnome-icon-microphone-disabled:before{content:"\e9d8"}.gnome-icon-microphone-hardware-disabled:before{content:"\e9d9"}.gnome-icon-microphone-sensitivity-high:before{content:"\e9da"}.gnome-icon-microphone-sensitivity-low:before{content:"\e9db"}.gnome-icon-microphone-sensitivity-medium:before{content:"\e9dc"}.gnome-icon-microphone-sensitivity-muted:before{content:"\e9dd"}.gnome-icon-network-cellular-2g:before{content:"\e9de"}.gnome-icon-network-cellular-3g:before{content:"\e9df"}.gnome-icon-network-cellular-4g:before{content:"\e9e0"}.gnome-icon-network-cellular-5g:before{content:"\e9e1"}.gnome-icon-network-cellular-acquiring-rtl:before{content:"\e9e2"}.gnome-icon-network-cellular-acquiring:before{content:"\e9e3"}.gnome-icon-network-cellular-acquiring-rtl:before{content:"\e9e4"}.gnome-icon-network-cellular-connected:before{content:"\e9e5"}.gnome-icon-network-cellular-disabled-rtl:before{content:"\e9e6"}.gnome-icon-network-cellular-disabled:before{content:"\e9e7"}.gnome-icon-network-cellular-disabled-rtl:before{content:"\e9e8"}.gnome-icon-network-cellular-edge:before{content:"\e9e9"}.gnome-icon-network-cellular-gprs:before{content:"\e9ea"}.gnome-icon-network-cellular-hardware-disabled-rtl:before{content:"\e9eb"}.gnome-icon-network-cellular-hardware-disabled:before{content:"\e9ec"}.gnome-icon-network-cellular-hardware-disabled-rtl:before{content:"\e9ed"}.gnome-icon-network-cellular-hspa:before{content:"\e9ee"}.gnome-icon-network-cellular-no-route-rtl:before{content:"\e9ef"}.gnome-icon-network-cellular-no-route:before{content:"\e9f0"}.gnome-icon-network-cellular-no-route-rtl:before{content:"\e9f1"}.gnome-icon-network-cellular-offline-rtl:before{content:"\e9f2"}.gnome-icon-network-cellular-offline:before{content:"\e9f3"}.gnome-icon-network-cellular-offline-rtl:before{content:"\e9f4"}.gnome-icon-network-cellular-signal-excellent-rtl:before{content:"\e9f5"}.gnome-icon-network-cellular-signal-excellent:before{content:"\e9f6"}.gnome-icon-network-cellular-signal-excellent-rtl:before{content:"\e9f7"}.gnome-icon-network-cellular-signal-good-rtl:before{content:"\e9f8"}.gnome-icon-network-cellular-signal-good:before{content:"\e9f9"}.gnome-icon-network-cellular-signal-good-rtl:before{content:"\e9fa"}.gnome-icon-network-cellular-signal-none-rtl:before{content:"\e9fb"}.gnome-icon-network-cellular-signal-none:before{content:"\e9fc"}.gnome-icon-network-cellular-signal-none-rtl:before{content:"\e9fd"}.gnome-icon-network-cellular-signal-ok-rtl:before{content:"\e9fe"}.gnome-icon-network-cellular-signal-ok:before{content:"\e9ff"}.gnome-icon-network-cellular-signal-ok-rtl:before{content:"\ea00"}.gnome-icon-network-cellular-signal-weak-rtl:before{content:"\ea01"}.gnome-icon-network-cellular-signal-weak:before{content:"\ea02"}.gnome-icon-network-cellular-signal-weak-rtl:before{content:"\ea03"}.gnome-icon-network-error:before{content:"\ea04"}.gnome-icon-network-idle:before{content:"\ea05"}.gnome-icon-network-no-route:before{content:"\ea06"}.gnome-icon-network-offline:before{content:"\ea07"}.gnome-icon-network-receive:before{content:"\ea08"}.gnome-icon-network-receive-rtl:before{content:"\ea09"}.gnome-icon-network-transmit-receive:before{content:"\ea0a"}.gnome-icon-network-transmit:before{content:"\ea0b"}.gnome-icon-network-transmit-rtl:before{content:"\ea0c"}.gnome-icon-network-vpn-acquiring:before{content:"\ea0d"}.gnome-icon-network-vpn-disabled:before{content:"\ea0e"}.gnome-icon-network-vpn-disconnected:before{content:"\ea0f"}.gnome-icon-network-vpn-no-route:before{content:"\ea10"}.gnome-icon-network-vpn:before{content:"\ea11"}.gnome-icon-network-wired-acquiring:before{content:"\ea12"}.gnome-icon-network-wired-disconnected:before{content:"\ea13"}.gnome-icon-network-wired-no-route:before{content:"\ea14"}.gnome-icon-network-wireless-acquiring:before{content:"\ea15"}.gnome-icon-network-wireless-connected:before{content:"\ea16"}.gnome-icon-network-wireless-disabled:before{content:"\ea17"}.gnome-icon-network-wireless-encrypted:before{content:"\ea18"}.gnome-icon-network-wireless-hardware-disabled:before{content:"\ea19"}.gnome-icon-network-wireless-hotspot:before{content:"\ea1a"}.gnome-icon-network-wireless-no-route:before{content:"\ea1b"}.gnome-icon-network-wireless-offline:before{content:"\ea1c"}.gnome-icon-network-wireless-signal-excellent:before{content:"\ea1d"}.gnome-icon-network-wireless-signal-good:before{content:"\ea1e"}.gnome-icon-network-wireless-signal-none:before{content:"\ea1f"}.gnome-icon-network-wireless-signal-ok:before{content:"\ea20"}.gnome-icon-network-wireless-signal-weak:before{content:"\ea21"}.gnome-icon-night-light-disabled:before{content:"\ea22"}.gnome-icon-night-light:before{content:"\ea23"}.gnome-icon-non-starred:before{content:"\ea24"}.gnome-icon-notifications-disabled:before{content:"\ea25"}.gnome-icon-orientation-landscape-inverse:before{content:"\ea26"}.gnome-icon-orientation-landscape:before{content:"\ea27"}.gnome-icon-orientation-portrait-left:before{content:"\ea28"}.gnome-icon-orientation-portrait-left-rtl:before{content:"\ea29"}.gnome-icon-orientation-portrait-right:before{content:"\ea2a"}.gnome-icon-orientation-portrait-right-rtl:before{content:"\ea2b"}.gnome-icon-power-profile-balanced:before{content:"\ea2c"}.gnome-icon-power-profile-performance:before{content:"\ea2d"}.gnome-icon-power-profile-power-saver:before{content:"\ea2e"}.gnome-icon-printer-error:before{content:"\ea2f"}.gnome-icon-printer-printing:before{content:"\ea30"}.gnome-icon-printer-warning:before{content:"\ea31"}.gnome-icon-rotation-allowed:before{content:"\ea32"}.gnome-icon-rotation-locked:before{content:"\ea33"}.gnome-icon-screen-shared:before{content:"\ea34"}.gnome-icon-security-high:before{content:"\ea35"}.gnome-icon-security-low:before{content:"\ea36"}.gnome-icon-security-medium-rtl:before{content:"\ea37"}.gnome-icon-security-medium:before{content:"\ea38"}.gnome-icon-security-medium-rtl:before{content:"\ea39"}.gnome-icon-semi-starred-rtl:before{content:"\ea3a"}.gnome-icon-semi-starred:before{content:"\ea3b"}.gnome-icon-semi-starred-rtl:before{content:"\ea3c"}.gnome-icon-software-update-available:before{content:"\ea3d"}.gnome-icon-software-update-urgent:before{content:"\ea3e"}.gnome-icon-starred:before{content:"\ea3f"}.gnome-icon-system-lock-screen:before{content:"\ea40"}.gnome-icon-task-due:before{content:"\ea41"}.gnome-icon-task-past-due:before{content:"\ea42"}.gnome-icon-thunderbolt-acquiring:before{content:"\ea43"}.gnome-icon-touch-disabled:before{content:"\ea44"}.gnome-icon-touchpad-disabled:before{content:"\ea45"}.gnome-icon-user-available:before{content:"\ea46"}.gnome-icon-user-away:before{content:"\ea47"}.gnome-icon-user-busy:before{content:"\ea48"}.gnome-icon-user-idle:before{content:"\ea49"}.gnome-icon-user-invisible:before{content:"\ea4a"}.gnome-icon-user-not-tracked:before{content:"\ea4b"}.gnome-icon-user-offline:before{content:"\ea4c"}.gnome-icon-user-status-pending:before{content:"\ea4d"}.gnome-icon-user-trash-full:before{content:"\ea4e"}.gnome-icon-view-wrapped-rtl:before{content:"\ea4f"}.gnome-icon-view-wrapped:before{content:"\ea50"}.gnome-icon-view-wrapped-rtl:before{content:"\ea51"}.gnome-icon-weather-clear-night:before{content:"\ea52"}.gnome-icon-weather-clear:before{content:"\ea53"}.gnome-icon-weather-few-clouds-night:before{content:"\ea54"}.gnome-icon-weather-few-clouds:before{content:"\ea55"}.gnome-icon-weather-fog:before{content:"\ea56"}.gnome-icon-weather-overcast:before{content:"\ea57"}.gnome-icon-weather-severe-alert:before{content:"\ea58"}.gnome-icon-weather-showers-scattered:before{content:"\ea59"}.gnome-icon-weather-showers:before{content:"\ea5a"}.gnome-icon-weather-snow:before{content:"\ea5b"}.gnome-icon-weather-storm:before{content:"\ea5c"}.gnome-icon-weather-tornado:before{content:"\ea5d"}.gnome-icon-weather-windy:before{content:"\ea5e"}.gnome-icon-checkbox-checked:before{content:"\ea5f"}.gnome-icon-checkbox-mixed:before{content:"\ea60"}.gnome-icon-checkbox:before{content:"\ea61"}.gnome-icon-focus-legacy-systray:before{content:"\ea62"}.gnome-icon-focus-top-bar:before{content:"\ea63"}.gnome-icon-focus-windows:before{content:"\ea64"}.gnome-icon-list-drag-handle:before{content:"\ea65"}.gnome-icon-pan-down:before{content:"\ea66"}.gnome-icon-pan-end-rtl:before{content:"\ea67"}.gnome-icon-pan-start:before{content:"\ea68"}.gnome-icon-pan-up:before{content:"\ea69"}.gnome-icon-radio-checked:before{content:"\ea6a"}.gnome-icon-radio-mixed:before{content:"\ea6b"}.gnome-icon-radio:before{content:"\ea6c"}.gnome-icon-selection-end:before{content:"\ea6d"}.gnome-icon-selection-end-rtl:before{content:"\ea6e"}.gnome-icon-selection-start-rtl:before{content:"\ea6f"}.gnome-icon-selection-start:before{content:"\ea70"}.gnome-icon-window-close:before{content:"\ea71"}.gnome-icon-window-new:before{content:"\ea72"}.gnome-icon-window-minimize:before{content:"\ea73"}.gnome-icon-window-restore:before{content:"\ea74"}.gnome-icon-pan-end:before{content:"\ea75"}.gnome-icon-window-maximize:before{content:"\ea76"}.gnome-icon-pan-start-rtl:before{content:"\ea77"}
+@font-face {
+    font-family: gnome;
+    src: url("../dist/gnome.eot?44613358");
+    src: url("../dist/gnome.eot?44613358#iefix") format("embedded-opentype"),url("../dist/gnome.woff2?44613358") format("woff2"),url("../dist/gnome.woff?44613358") format("woff"),url("../dist/gnome.ttf?44613358") format("truetype"),url("../dist/gnome.svg?44613358#gnome") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" gnome-icon-"],[class^=gnome-icon-] {
+    display: inline-block;
+    aspect-ratio: 1/1;
+    width: 1em;
+    height: auto;
+    position: relative;
+}
+[class*=" gnome-icon-"]:before,[class^=gnome-icon-]:before {
+    font-family: gnome;
+    font-style: normal;
+    font-weight: 400;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gnome-icon-action-unavailable:before {
+    content: "\e800"
+}
+
+.gnome-icon-address-book-new:before {
+    content: "\e801"
+}
+
+.gnome-icon-application-exit-rtl:before {
+    content: "\e802"
+}
+
+.gnome-icon-application-exit:before {
+    content: "\e803"
+}
+
+.gnome-icon-application-exit-rtl:before {
+    content: "\e804"
+}
+
+.gnome-icon-appointment-new:before {
+    content: "\e805"
+}
+
+.gnome-icon-bookmark-new:before {
+    content: "\e806"
+}
+
+.gnome-icon-call-start:before {
+    content: "\e807"
+}
+
+.gnome-icon-call-stop:before {
+    content: "\e808"
+}
+
+.gnome-icon-camera-switch:before {
+    content: "\e809"
+}
+
+.gnome-icon-chat-message-new:before {
+    content: "\e80a"
+}
+
+.gnome-icon-color-select:before {
+    content: "\e80b"
+}
+
+.gnome-icon-contact-new:before {
+    content: "\e80c"
+}
+
+.gnome-icon-document-edit:before {
+    content: "\e80d"
+}
+
+.gnome-icon-document-new:before {
+    content: "\e80e"
+}
+
+.gnome-icon-document-open-recent:before {
+    content: "\e80f"
+}
+
+.gnome-icon-document-open:before {
+    content: "\e810"
+}
+
+.gnome-icon-document-page-setup:before {
+    content: "\e811"
+}
+
+.gnome-icon-document-print-preview:before {
+    content: "\e812"
+}
+
+.gnome-icon-document-print:before {
+    content: "\e813"
+}
+
+.gnome-icon-document-properties:before {
+    content: "\e814"
+}
+
+.gnome-icon-document-revert-rtl:before {
+    content: "\e815"
+}
+
+.gnome-icon-document-revert:before {
+    content: "\e816"
+}
+
+.gnome-icon-document-revert-rtl:before {
+    content: "\e817"
+}
+
+.gnome-icon-document-save-as:before {
+    content: "\e818"
+}
+
+.gnome-icon-document-save:before {
+    content: "\e819"
+}
+
+.gnome-icon-document-send:before {
+    content: "\e81a"
+}
+
+.gnome-icon-edit-clear-all:before {
+    content: "\e81b"
+}
+
+.gnome-icon-edit-clear-rtl:before {
+    content: "\e81c"
+}
+
+.gnome-icon-edit-clear:before {
+    content: "\e81d"
+}
+
+.gnome-icon-edit-clear-rtl:before {
+    content: "\e81e"
+}
+
+.gnome-icon-edit-copy:before {
+    content: "\e81f"
+}
+
+.gnome-icon-edit-cut:before {
+    content: "\e820"
+}
+
+.gnome-icon-edit-delete:before {
+    content: "\e821"
+}
+
+.gnome-icon-edit-find-replace:before {
+    content: "\e822"
+}
+
+.gnome-icon-edit-find:before {
+    content: "\e823"
+}
+
+.gnome-icon-edit-paste:before {
+    content: "\e824"
+}
+
+.gnome-icon-edit-redo:before {
+    content: "\e825"
+}
+
+.gnome-icon-edit-redo-rtl:before {
+    content: "\e826"
+}
+
+.gnome-icon-edit-select-all:before {
+    content: "\e827"
+}
+
+.gnome-icon-edit-select:before {
+    content: "\e828"
+}
+
+.gnome-icon-edit-undo:before {
+    content: "\e829"
+}
+
+.gnome-icon-edit-undo-rtl:before {
+    content: "\e82a"
+}
+
+.gnome-icon-error-correct:before {
+    content: "\e82b"
+}
+
+.gnome-icon-find-location:before {
+    content: "\e82c"
+}
+
+.gnome-icon-folder-new:before {
+    content: "\e82d"
+}
+
+.gnome-icon-font-select:before {
+    content: "\e82e"
+}
+
+.gnome-icon-format-indent-less-rtl:before {
+    content: "\e82f"
+}
+
+.gnome-icon-format-indent-less:before {
+    content: "\e830"
+}
+
+.gnome-icon-format-indent-less-rtl:before {
+    content: "\e831"
+}
+
+.gnome-icon-format-indent-more-rtl:before {
+    content: "\e832"
+}
+
+.gnome-icon-format-indent-more:before {
+    content: "\e833"
+}
+
+.gnome-icon-format-indent-more-rtl:before {
+    content: "\e834"
+}
+
+.gnome-icon-format-justify-center:before {
+    content: "\e835"
+}
+
+.gnome-icon-format-justify-fill:before {
+    content: "\e836"
+}
+
+.gnome-icon-format-justify-left:before {
+    content: "\e837"
+}
+
+.gnome-icon-format-justify-right:before {
+    content: "\e838"
+}
+
+.gnome-icon-format-text-bold:before {
+    content: "\e839"
+}
+
+.gnome-icon-format-text-direction-ltr:before {
+    content: "\e83a"
+}
+
+.gnome-icon-format-text-direction-rtl:before {
+    content: "\e83b"
+}
+
+.gnome-icon-format-text-direction:before {
+    content: "\e83c"
+}
+
+.gnome-icon-format-text-direction-rtl:before {
+    content: "\e83d"
+}
+
+.gnome-icon-format-text-italic:before {
+    content: "\e83e"
+}
+
+.gnome-icon-format-text-plaintext:before {
+    content: "\e83f"
+}
+
+.gnome-icon-format-text-rich:before {
+    content: "\e840"
+}
+
+.gnome-icon-format-text-strikethrough:before {
+    content: "\e841"
+}
+
+.gnome-icon-format-text-underline:before {
+    content: "\e842"
+}
+
+.gnome-icon-go-bottom:before {
+    content: "\e843"
+}
+
+.gnome-icon-go-down:before {
+    content: "\e844"
+}
+
+.gnome-icon-go-first:before {
+    content: "\e845"
+}
+
+.gnome-icon-go-first-rtl:before {
+    content: "\e846"
+}
+
+.gnome-icon-go-home:before {
+    content: "\e847"
+}
+
+.gnome-icon-go-jump-rtl:before {
+    content: "\e848"
+}
+
+.gnome-icon-go-jump:before {
+    content: "\e849"
+}
+
+.gnome-icon-go-jump-rtl:before {
+    content: "\e84a"
+}
+
+.gnome-icon-go-last:before {
+    content: "\e84b"
+}
+
+.gnome-icon-go-last-rtl:before {
+    content: "\e84c"
+}
+
+.gnome-icon-go-next:before {
+    content: "\e84d"
+}
+
+.gnome-icon-go-next-rtl:before {
+    content: "\e84e"
+}
+
+.gnome-icon-go-previous:before {
+    content: "\e84f"
+}
+
+.gnome-icon-go-previous-rtl:before {
+    content: "\e850"
+}
+
+.gnome-icon-go-top:before {
+    content: "\e851"
+}
+
+.gnome-icon-go-up:before {
+    content: "\e852"
+}
+
+.gnome-icon-help-about:before {
+    content: "\e853"
+}
+
+.gnome-icon-insert-image:before {
+    content: "\e854"
+}
+
+.gnome-icon-insert-link:before {
+    content: "\e855"
+}
+
+.gnome-icon-insert-object:before {
+    content: "\e856"
+}
+
+.gnome-icon-insert-text:before {
+    content: "\e857"
+}
+
+.gnome-icon-list-add:before {
+    content: "\e858"
+}
+
+.gnome-icon-list-remove-all:before {
+    content: "\e859"
+}
+
+.gnome-icon-list-remove:before {
+    content: "\e85a"
+}
+
+.gnome-icon-mail-forward:before {
+    content: "\e85b"
+}
+
+.gnome-icon-mail-forward-rtl:before {
+    content: "\e85c"
+}
+
+.gnome-icon-mail-mark-important:before {
+    content: "\e85d"
+}
+
+.gnome-icon-mail-mark-junk:before {
+    content: "\e85e"
+}
+
+.gnome-icon-mail-mark-notjunk:before {
+    content: "\e85f"
+}
+
+.gnome-icon-mail-message-new:before {
+    content: "\e860"
+}
+
+.gnome-icon-mail-reply-all-rtl:before {
+    content: "\e861"
+}
+
+.gnome-icon-mail-reply-all:before {
+    content: "\e862"
+}
+
+.gnome-icon-mail-reply-all-rtl:before {
+    content: "\e863"
+}
+
+.gnome-icon-mail-reply-sender:before {
+    content: "\e864"
+}
+
+.gnome-icon-mail-reply-sender-rtl:before {
+    content: "\e865"
+}
+
+.gnome-icon-mail-send-receive:before {
+    content: "\e866"
+}
+
+.gnome-icon-mail-send:before {
+    content: "\e867"
+}
+
+.gnome-icon-mark-location:before {
+    content: "\e868"
+}
+
+.gnome-icon-media-eject:before {
+    content: "\e869"
+}
+
+.gnome-icon-media-playback-pause:before {
+    content: "\e86a"
+}
+
+.gnome-icon-media-playback-start:before {
+    content: "\e86b"
+}
+
+.gnome-icon-media-playback-stop:before {
+    content: "\e86c"
+}
+
+.gnome-icon-media-record:before {
+    content: "\e86d"
+}
+
+.gnome-icon-media-seek-backward:before {
+    content: "\e86e"
+}
+
+.gnome-icon-media-seek-backward-rtl:before {
+    content: "\e86f"
+}
+
+.gnome-icon-media-seek-forward:before {
+    content: "\e870"
+}
+
+.gnome-icon-media-seek-forward-rtl:before {
+    content: "\e871"
+}
+
+.gnome-icon-media-skip-backward:before {
+    content: "\e872"
+}
+
+.gnome-icon-media-skip-backward-rtl:before {
+    content: "\e873"
+}
+
+.gnome-icon-media-skip-forward:before {
+    content: "\e874"
+}
+
+.gnome-icon-media-skip-forward-rtl:before {
+    content: "\e875"
+}
+
+.gnome-icon-media-view-subtitles:before {
+    content: "\e876"
+}
+
+.gnome-icon-object-flip-horizontal:before {
+    content: "\e877"
+}
+
+.gnome-icon-object-flip-vertical:before {
+    content: "\e878"
+}
+
+.gnome-icon-object-rotate-left:before {
+    content: "\e879"
+}
+
+.gnome-icon-object-rotate-right:before {
+    content: "\e87a"
+}
+
+.gnome-icon-object-select:before {
+    content: "\e87b"
+}
+
+.gnome-icon-open-menu:before {
+    content: "\e87c"
+}
+
+.gnome-icon-process-stop:before {
+    content: "\e87d"
+}
+
+.gnome-icon-selection-mode:before {
+    content: "\e87e"
+}
+
+.gnome-icon-send-to:before {
+    content: "\e87f"
+}
+
+.gnome-icon-sidebar-show-right:before {
+    content: "\e880"
+}
+
+.gnome-icon-sidebar-show-right-rtl:before {
+    content: "\e881"
+}
+
+.gnome-icon-sidebar-show:before {
+    content: "\e882"
+}
+
+.gnome-icon-sidebar-show-rtl:before {
+    content: "\e883"
+}
+
+.gnome-icon-star-new:before {
+    content: "\e884"
+}
+
+.gnome-icon-system-log-out-rtl:before {
+    content: "\e885"
+}
+
+.gnome-icon-system-log-out:before {
+    content: "\e886"
+}
+
+.gnome-icon-system-log-out-rtl:before {
+    content: "\e887"
+}
+
+.gnome-icon-system-reboot:before {
+    content: "\e888"
+}
+
+.gnome-icon-system-run:before {
+    content: "\e889"
+}
+
+.gnome-icon-system-search:before {
+    content: "\e88a"
+}
+
+.gnome-icon-system-shutdown:before {
+    content: "\e88b"
+}
+
+.gnome-icon-system-switch-user-rtl:before {
+    content: "\e88c"
+}
+
+.gnome-icon-system-switch-user:before {
+    content: "\e88d"
+}
+
+.gnome-icon-system-switch-user-rtl:before {
+    content: "\e88e"
+}
+
+.gnome-icon-tab-new:before {
+    content: "\e88f"
+}
+
+.gnome-icon-tools-check-spelling:before {
+    content: "\e890"
+}
+
+.gnome-icon-value-decrease:before {
+    content: "\e891"
+}
+
+.gnome-icon-value-increase:before {
+    content: "\e892"
+}
+
+.gnome-icon-view-app-grid:before {
+    content: "\e893"
+}
+
+.gnome-icon-view-conceal:before {
+    content: "\e894"
+}
+
+.gnome-icon-view-continuous:before {
+    content: "\e895"
+}
+
+.gnome-icon-view-dual:before {
+    content: "\e896"
+}
+
+.gnome-icon-view-fullscreen:before {
+    content: "\e897"
+}
+
+.gnome-icon-view-grid:before {
+    content: "\e898"
+}
+
+.gnome-icon-view-list-bullet-rtl:before {
+    content: "\e899"
+}
+
+.gnome-icon-view-list-bullet:before {
+    content: "\e89a"
+}
+
+.gnome-icon-view-list-bullet-rtl:before {
+    content: "\e89b"
+}
+
+.gnome-icon-view-list-ordered-rtl:before {
+    content: "\e89c"
+}
+
+.gnome-icon-view-list-ordered:before {
+    content: "\e89d"
+}
+
+.gnome-icon-view-list-ordered-rtl:before {
+    content: "\e89e"
+}
+
+.gnome-icon-view-list-rtl:before {
+    content: "\e89f"
+}
+
+.gnome-icon-view-list:before {
+    content: "\e8a0"
+}
+
+.gnome-icon-view-list-rtl:before {
+    content: "\e8a1"
+}
+
+.gnome-icon-view-mirror:before {
+    content: "\e8a2"
+}
+
+.gnome-icon-view-more-horizontal:before {
+    content: "\e8a3"
+}
+
+.gnome-icon-view-more:before {
+    content: "\e8a4"
+}
+
+.gnome-icon-view-paged-rtl:before {
+    content: "\e8a5"
+}
+
+.gnome-icon-view-paged:before {
+    content: "\e8a6"
+}
+
+.gnome-icon-view-paged-rtl:before {
+    content: "\e8a7"
+}
+
+.gnome-icon-view-pin:before {
+    content: "\e8a8"
+}
+
+.gnome-icon-view-refresh:before {
+    content: "\e8a9"
+}
+
+.gnome-icon-view-restore:before {
+    content: "\e8aa"
+}
+
+.gnome-icon-view-reveal:before {
+    content: "\e8ab"
+}
+
+.gnome-icon-view-sort-ascending-rtl:before {
+    content: "\e8ac"
+}
+
+.gnome-icon-view-sort-ascending:before {
+    content: "\e8ad"
+}
+
+.gnome-icon-view-sort-ascending-rtl:before {
+    content: "\e8ae"
+}
+
+.gnome-icon-view-sort-descending-rtl:before {
+    content: "\e8af"
+}
+
+.gnome-icon-view-sort-descending:before {
+    content: "\e8b0"
+}
+
+.gnome-icon-view-sort-descending-rtl:before {
+    content: "\e8b1"
+}
+
+.gnome-icon-zoom-fit-best:before {
+    content: "\e8b2"
+}
+
+.gnome-icon-zoom-in:before {
+    content: "\e8b3"
+}
+
+.gnome-icon-zoom-original:before {
+    content: "\e8b4"
+}
+
+.gnome-icon-zoom-out:before {
+    content: "\e8b5"
+}
+
+.gnome-icon-help-contents:before {
+    content: "\e8b6"
+}
+
+.gnome-icon-applications-engineering:before {
+    content: "\e8b7"
+}
+
+.gnome-icon-applications-games:before {
+    content: "\e8b8"
+}
+
+.gnome-icon-applications-graphics:before {
+    content: "\e8b9"
+}
+
+.gnome-icon-applications-science:before {
+    content: "\e8ba"
+}
+
+.gnome-icon-applications-system:before {
+    content: "\e8bb"
+}
+
+.gnome-icon-emoji-activities:before {
+    content: "\e8bc"
+}
+
+.gnome-icon-applications-utilities:before {
+    content: "\e8bd"
+}
+
+.gnome-icon-emoji-flags:before {
+    content: "\e8be"
+}
+
+.gnome-icon-emoji-food:before {
+    content: "\e8bf"
+}
+
+.gnome-icon-emoji-objects:before {
+    content: "\e8c0"
+}
+
+.gnome-icon-emoji-people:before {
+    content: "\e8c1"
+}
+
+.gnome-icon-emoji-nature:before {
+    content: "\e8c2"
+}
+
+.gnome-icon-emoji-recent:before {
+    content: "\e8c3"
+}
+
+.gnome-icon-preferences-other:before {
+    content: "\e8c4"
+}
+
+.gnome-icon-emoji-travel:before {
+    content: "\e8c5"
+}
+
+.gnome-icon-system-help:before {
+    content: "\e8c6"
+}
+
+.gnome-icon-applications-multimedia:before {
+    content: "\e8c7"
+}
+
+.gnome-icon-emoji-body:before {
+    content: "\e8c8"
+}
+
+.gnome-icon-emoji-symbols:before {
+    content: "\e8c9"
+}
+
+.gnome-icon-preferences-system:before {
+    content: "\e8ca"
+}
+
+.gnome-icon-ac-adapter:before {
+    content: "\e8cb"
+}
+
+.gnome-icon-audio-card:before {
+    content: "\e8cc"
+}
+
+.gnome-icon-audio-headphones:before {
+    content: "\e8cd"
+}
+
+.gnome-icon-audio-headset:before {
+    content: "\e8ce"
+}
+
+.gnome-icon-audio-input-microphone:before {
+    content: "\e8cf"
+}
+
+.gnome-icon-audio-speakers-rtl:before {
+    content: "\e8d0"
+}
+
+.gnome-icon-audio-speakers:before {
+    content: "\e8d1"
+}
+
+.gnome-icon-audio-speakers-rtl:before {
+    content: "\e8d2"
+}
+
+.gnome-icon-auth-face:before {
+    content: "\e8d3"
+}
+
+.gnome-icon-auth-fingerprint:before {
+    content: "\e8d4"
+}
+
+.gnome-icon-auth-sim:before {
+    content: "\e8d5"
+}
+
+.gnome-icon-auth-smartcard:before {
+    content: "\e8d6"
+}
+
+.gnome-icon-battery:before {
+    content: "\e8d7"
+}
+
+.gnome-icon-bluetooth:before {
+    content: "\e8d8"
+}
+
+.gnome-icon-camera-photo:before {
+    content: "\e8d9"
+}
+
+.gnome-icon-camera-video:before {
+    content: "\e8da"
+}
+
+.gnome-icon-camera-web:before {
+    content: "\e8db"
+}
+
+.gnome-icon-colorimeter-colorhug:before {
+    content: "\e8dc"
+}
+
+.gnome-icon-computer-apple-ipad:before {
+    content: "\e8dd"
+}
+
+.gnome-icon-computer:before {
+    content: "\e8de"
+}
+
+.gnome-icon-display-projector:before {
+    content: "\e8df"
+}
+
+.gnome-icon-drive-harddisk-ieee1394:before {
+    content: "\e8e0"
+}
+
+.gnome-icon-drive-harddisk-solidstate:before {
+    content: "\e8e1"
+}
+
+.gnome-icon-drive-harddisk:before {
+    content: "\e8e2"
+}
+
+.gnome-icon-drive-harddisk-system:before {
+    content: "\e8e3"
+}
+
+.gnome-icon-drive-harddisk-usb:before {
+    content: "\e8e4"
+}
+
+.gnome-icon-drive-multidisk:before {
+    content: "\e8e5"
+}
+
+.gnome-icon-drive-optical:before {
+    content: "\e8e6"
+}
+
+.gnome-icon-drive-removable-media:before {
+    content: "\e8e7"
+}
+
+.gnome-icon-input-dialpad:before {
+    content: "\e8e8"
+}
+
+.gnome-icon-input-gaming:before {
+    content: "\e8e9"
+}
+
+.gnome-icon-input-keyboard:before {
+    content: "\e8ea"
+}
+
+.gnome-icon-input-mouse:before {
+    content: "\e8eb"
+}
+
+.gnome-icon-input-tablet:before {
+    content: "\e8ec"
+}
+
+.gnome-icon-input-touchpad:before {
+    content: "\e8ed"
+}
+
+.gnome-icon-media-flash:before {
+    content: "\e8ee"
+}
+
+.gnome-icon-media-floppy:before {
+    content: "\e8ef"
+}
+
+.gnome-icon-media-optical-bd:before {
+    content: "\e8f0"
+}
+
+.gnome-icon-media-optical-cd-audio:before {
+    content: "\e8f1"
+}
+
+.gnome-icon-media-optical-cd:before {
+    content: "\e8f2"
+}
+
+.gnome-icon-media-optical-dvd:before {
+    content: "\e8f3"
+}
+
+.gnome-icon-media-removable:before {
+    content: "\e8f4"
+}
+
+.gnome-icon-media-tape:before {
+    content: "\e8f5"
+}
+
+.gnome-icon-media-zip:before {
+    content: "\e8f6"
+}
+
+.gnome-icon-media-optical:before {
+    content: "\e8f7"
+}
+
+.gnome-icon-modem:before {
+    content: "\e8f8"
+}
+
+.gnome-icon-multimedia-player-apple-ipod-touch:before {
+    content: "\e8f9"
+}
+
+.gnome-icon-multimedia-player:before {
+    content: "\e8fa"
+}
+
+.gnome-icon-network-cellular:before {
+    content: "\e8fb"
+}
+
+.gnome-icon-network-wired:before {
+    content: "\e8fc"
+}
+
+.gnome-icon-network-wireless:before {
+    content: "\e8fd"
+}
+
+.gnome-icon-pda:before {
+    content: "\e8fe"
+}
+
+.gnome-icon-phone-apple-iphone:before {
+    content: "\e8ff"
+}
+
+.gnome-icon-phone-old:before {
+    content: "\e900"
+}
+
+.gnome-icon-phone:before {
+    content: "\e901"
+}
+
+.gnome-icon-printer-network:before {
+    content: "\e902"
+}
+
+.gnome-icon-printer:before {
+    content: "\e903"
+}
+
+.gnome-icon-scanner:before {
+    content: "\e904"
+}
+
+.gnome-icon-tablet:before {
+    content: "\e905"
+}
+
+.gnome-icon-thunderbolt:before {
+    content: "\e906"
+}
+
+.gnome-icon-tv:before {
+    content: "\e907"
+}
+
+.gnome-icon-uninterruptible-power-supply:before {
+    content: "\e908"
+}
+
+.gnome-icon-video-display:before {
+    content: "\e909"
+}
+
+.gnome-icon-video-joined-displays:before {
+    content: "\e90a"
+}
+
+.gnome-icon-video-single-display:before {
+    content: "\e90b"
+}
+
+.gnome-icon-emote-love:before {
+    content: "\e90c"
+}
+
+.gnome-icon-face-angel:before {
+    content: "\e90d"
+}
+
+.gnome-icon-face-angry:before {
+    content: "\e90e"
+}
+
+.gnome-icon-face-cool:before {
+    content: "\e90f"
+}
+
+.gnome-icon-face-devilish:before {
+    content: "\e910"
+}
+
+.gnome-icon-face-embarrassed:before {
+    content: "\e911"
+}
+
+.gnome-icon-face-glasses:before {
+    content: "\e912"
+}
+
+.gnome-icon-face-laugh:before {
+    content: "\e913"
+}
+
+.gnome-icon-face-kiss:before {
+    content: "\e914"
+}
+
+.gnome-icon-face-monkey:before {
+    content: "\e915"
+}
+
+.gnome-icon-face-plain:before {
+    content: "\e916"
+}
+
+.gnome-icon-face-raspberry:before {
+    content: "\e917"
+}
+
+.gnome-icon-face-sad:before {
+    content: "\e918"
+}
+
+.gnome-icon-face-shutmouth:before {
+    content: "\e919"
+}
+
+.gnome-icon-face-sick:before {
+    content: "\e91a"
+}
+
+.gnome-icon-face-smile-big:before {
+    content: "\e91b"
+}
+
+.gnome-icon-face-smirk:before {
+    content: "\e91c"
+}
+
+.gnome-icon-face-tired:before {
+    content: "\e91d"
+}
+
+.gnome-icon-face-surprise:before {
+    content: "\e91e"
+}
+
+.gnome-icon-face-uncertain:before {
+    content: "\e91f"
+}
+
+.gnome-icon-face-yawn:before {
+    content: "\e920"
+}
+
+.gnome-icon-face-worried:before {
+    content: "\e921"
+}
+
+.gnome-icon-face-confused:before {
+    content: "\e922"
+}
+
+.gnome-icon-face-smile:before {
+    content: "\e923"
+}
+
+.gnome-icon-face-crying:before {
+    content: "\e924"
+}
+
+.gnome-icon-face-wink:before {
+    content: "\e925"
+}
+
+.gnome-icon-accessories-calculator:before {
+    content: "\e926"
+}
+
+.gnome-icon-accessories-character-map:before {
+    content: "\e927"
+}
+
+.gnome-icon-accessories-dictionary:before {
+    content: "\e928"
+}
+
+.gnome-icon-accessories-text-editor:before {
+    content: "\e929"
+}
+
+.gnome-icon-applets-screenshooter:before {
+    content: "\e92a"
+}
+
+.gnome-icon-battery-caution-charging:before {
+    content: "\e92b"
+}
+
+.gnome-icon-battery-empty-charging:before {
+    content: "\e92c"
+}
+
+.gnome-icon-battery-empty:before {
+    content: "\e92d"
+}
+
+.gnome-icon-battery-full-charged:before {
+    content: "\e92e"
+}
+
+.gnome-icon-battery-full-charging:before {
+    content: "\e92f"
+}
+
+.gnome-icon-battery-full:before {
+    content: "\e930"
+}
+
+.gnome-icon-battery-good-charging:before {
+    content: "\e931"
+}
+
+.gnome-icon-battery-good:before {
+    content: "\e932"
+}
+
+.gnome-icon-battery-low-charging:before {
+    content: "\e933"
+}
+
+.gnome-icon-gnome-power-manager:before {
+    content: "\e934"
+}
+
+.gnome-icon-goa-panel:before {
+    content: "\e935"
+}
+
+.gnome-icon-help-browser:before {
+    content: "\e936"
+}
+
+.gnome-icon-help-contents-1:before {
+    content: "\e937"
+}
+
+.gnome-icon-help-faq:before {
+    content: "\e938"
+}
+
+.gnome-icon-multimedia-volume-control:before {
+    content: "\e939"
+}
+
+.gnome-icon-preferences-color:before {
+    content: "\e93a"
+}
+
+.gnome-icon-preferences-desktop-accessibility:before {
+    content: "\e93b"
+}
+
+.gnome-icon-preferences-desktop-appearance:before {
+    content: "\e93c"
+}
+
+.gnome-icon-preferences-desktop-apps:before {
+    content: "\e93d"
+}
+
+.gnome-icon-preferences-desktop-display:before {
+    content: "\e93e"
+}
+
+.gnome-icon-preferences-desktop-font:before {
+    content: "\e93f"
+}
+
+.gnome-icon-preferences-desktop-keyboard-shortcuts:before {
+    content: "\e940"
+}
+
+.gnome-icon-preferences-desktop-keyboard:before {
+    content: "\e941"
+}
+
+.gnome-icon-preferences-desktop-locale:before {
+    content: "\e942"
+}
+
+.gnome-icon-preferences-desktop-multitasking:before {
+    content: "\e943"
+}
+
+.gnome-icon-preferences-desktop-remote-desktop:before {
+    content: "\e944"
+}
+
+.gnome-icon-preferences-desktop-screensaver:before {
+    content: "\e945"
+}
+
+.gnome-icon-preferences-desktop-wallpaper:before {
+    content: "\e946"
+}
+
+.gnome-icon-preferences-system-details:before {
+    content: "\e947"
+}
+
+.gnome-icon-preferences-system-devices:before {
+    content: "\e948"
+}
+
+.gnome-icon-preferences-system-network-proxy:before {
+    content: "\e949"
+}
+
+.gnome-icon-preferences-system-network:before {
+    content: "\e94a"
+}
+
+.gnome-icon-preferences-system-notifications:before {
+    content: "\e94b"
+}
+
+.gnome-icon-preferences-system-parental-controls:before {
+    content: "\e94c"
+}
+
+.gnome-icon-preferences-system-privacy:before {
+    content: "\e94d"
+}
+
+.gnome-icon-preferences-system-search:before {
+    content: "\e94e"
+}
+
+.gnome-icon-preferences-system-sharing:before {
+    content: "\e94f"
+}
+
+.gnome-icon-preferences-system-time:before {
+    content: "\e950"
+}
+
+.gnome-icon-system-file-manager:before {
+    content: "\e951"
+}
+
+.gnome-icon-system-software-install:before {
+    content: "\e952"
+}
+
+.gnome-icon-system-users:before {
+    content: "\e953"
+}
+
+.gnome-icon-text-editor:before {
+    content: "\e954"
+}
+
+.gnome-icon-user-info:before {
+    content: "\e955"
+}
+
+.gnome-icon-utilities-terminal:before {
+    content: "\e956"
+}
+
+.gnome-icon-web-browser:before {
+    content: "\e957"
+}
+
+.gnome-icon-application-x-appliance:before {
+    content: "\e958"
+}
+
+.gnome-icon-application-x-executable:before {
+    content: "\e959"
+}
+
+.gnome-icon-application-x-firmware:before {
+    content: "\e95a"
+}
+
+.gnome-icon-application-x-sharedlib:before {
+    content: "\e95b"
+}
+
+.gnome-icon-audio-x-generic:before {
+    content: "\e95c"
+}
+
+.gnome-icon-font-x-generic:before {
+    content: "\e95d"
+}
+
+.gnome-icon-image-x-generic:before {
+    content: "\e95e"
+}
+
+.gnome-icon-inode-directory:before {
+    content: "\e95f"
+}
+
+.gnome-icon-package-x-generic:before {
+    content: "\e960"
+}
+
+.gnome-icon-text-x-generic:before {
+    content: "\e961"
+}
+
+.gnome-icon-video-x-generic:before {
+    content: "\e962"
+}
+
+.gnome-icon-x-office-address-book:before {
+    content: "\e963"
+}
+
+.gnome-icon-x-office-calendar:before {
+    content: "\e964"
+}
+
+.gnome-icon-x-office-document:before {
+    content: "\e965"
+}
+
+.gnome-icon-x-office-drawing:before {
+    content: "\e966"
+}
+
+.gnome-icon-x-office-presentation:before {
+    content: "\e967"
+}
+
+.gnome-icon-x-office-spreadsheet:before {
+    content: "\e968"
+}
+
+.gnome-icon-application-certificate:before {
+    content: "\e969"
+}
+
+.gnome-icon-application-rss+xml:before {
+    content: "\e96a"
+}
+
+.gnome-icon-application-x-addon:before {
+    content: "\e96b"
+}
+
+.gnome-icon-folder-download:before {
+    content: "\e96c"
+}
+
+.gnome-icon-folder-documents:before {
+    content: "\e96d"
+}
+
+.gnome-icon-folder-music:before {
+    content: "\e96e"
+}
+
+.gnome-icon-folder-pictures:before {
+    content: "\e96f"
+}
+
+.gnome-icon-folder-publicshare:before {
+    content: "\e970"
+}
+
+.gnome-icon-folder-remote:before {
+    content: "\e971"
+}
+
+.gnome-icon-folder-saved-search:before {
+    content: "\e972"
+}
+
+.gnome-icon-folder:before {
+    content: "\e973"
+}
+
+.gnome-icon-folder-templates:before {
+    content: "\e974"
+}
+
+.gnome-icon-folder-videos:before {
+    content: "\e975"
+}
+
+.gnome-icon-network-server:before {
+    content: "\e976"
+}
+
+.gnome-icon-network-workgroup:before {
+    content: "\e977"
+}
+
+.gnome-icon-start-here:before {
+    content: "\e978"
+}
+
+.gnome-icon-user-bookmarks:before {
+    content: "\e979"
+}
+
+.gnome-icon-user-desktop:before {
+    content: "\e97a"
+}
+
+.gnome-icon-user-home:before {
+    content: "\e97b"
+}
+
+.gnome-icon-user-trash:before {
+    content: "\e97c"
+}
+
+.gnome-icon-airplane-mode-disabled:before {
+    content: "\e97d"
+}
+
+.gnome-icon-airplane-mode:before {
+    content: "\e97e"
+}
+
+.gnome-icon-alarm:before {
+    content: "\e97f"
+}
+
+.gnome-icon-appointment-missed:before {
+    content: "\e980"
+}
+
+.gnome-icon-appointment-soon:before {
+    content: "\e981"
+}
+
+.gnome-icon-audio-volume-high-rtl:before {
+    content: "\e982"
+}
+
+.gnome-icon-audio-volume-high:before {
+    content: "\e983"
+}
+
+.gnome-icon-audio-volume-high-rtl:before {
+    content: "\e984"
+}
+
+.gnome-icon-audio-volume-low-rtl:before {
+    content: "\e985"
+}
+
+.gnome-icon-audio-volume-low:before {
+    content: "\e986"
+}
+
+.gnome-icon-audio-volume-low-rtl:before {
+    content: "\e987"
+}
+
+.gnome-icon-audio-volume-medium-rtl:before {
+    content: "\e988"
+}
+
+.gnome-icon-audio-volume-medium:before {
+    content: "\e989"
+}
+
+.gnome-icon-audio-volume-medium-rtl:before {
+    content: "\e98a"
+}
+
+.gnome-icon-audio-volume-muted-rtl:before {
+    content: "\e98b"
+}
+
+.gnome-icon-audio-volume-muted:before {
+    content: "\e98c"
+}
+
+.gnome-icon-audio-volume-muted-rtl:before {
+    content: "\e98d"
+}
+
+.gnome-icon-audio-volume-overamplified-rtl:before {
+    content: "\e98e"
+}
+
+.gnome-icon-audio-volume-overamplified:before {
+    content: "\e98f"
+}
+
+.gnome-icon-audio-volume-overamplified-rtl:before {
+    content: "\e990"
+}
+
+.gnome-icon-auth-sim-locked:before {
+    content: "\e991"
+}
+
+.gnome-icon-auth-sim-missing:before {
+    content: "\e992"
+}
+
+.gnome-icon-avatar-default:before {
+    content: "\e993"
+}
+
+.gnome-icon-battery-action:before {
+    content: "\e994"
+}
+
+.gnome-icon-battery-caution:before {
+    content: "\e995"
+}
+
+.gnome-icon-battery-level-0-charging:before {
+    content: "\e996"
+}
+
+.gnome-icon-battery-level-0:before {
+    content: "\e997"
+}
+
+.gnome-icon-battery-level-10-charging:before {
+    content: "\e998"
+}
+
+.gnome-icon-battery-level-10:before {
+    content: "\e999"
+}
+
+.gnome-icon-battery-level-20-charging:before {
+    content: "\e99a"
+}
+
+.gnome-icon-battery-level-20:before {
+    content: "\e99b"
+}
+
+.gnome-icon-battery-level-30-charging:before {
+    content: "\e99c"
+}
+
+.gnome-icon-battery-level-30:before {
+    content: "\e99d"
+}
+
+.gnome-icon-battery-level-40-charging:before {
+    content: "\e99e"
+}
+
+.gnome-icon-battery-level-40:before {
+    content: "\e99f"
+}
+
+.gnome-icon-battery-level-50-charging:before {
+    content: "\e9a0"
+}
+
+.gnome-icon-battery-level-50:before {
+    content: "\e9a1"
+}
+
+.gnome-icon-battery-level-60-charging:before {
+    content: "\e9a2"
+}
+
+.gnome-icon-battery-level-60:before {
+    content: "\e9a3"
+}
+
+.gnome-icon-battery-level-70-charging:before {
+    content: "\e9a4"
+}
+
+.gnome-icon-battery-level-70:before {
+    content: "\e9a5"
+}
+
+.gnome-icon-battery-level-80-charging:before {
+    content: "\e9a6"
+}
+
+.gnome-icon-battery-level-80:before {
+    content: "\e9a7"
+}
+
+.gnome-icon-battery-level-90-charging:before {
+    content: "\e9a8"
+}
+
+.gnome-icon-battery-level-90:before {
+    content: "\e9a9"
+}
+
+.gnome-icon-battery-level-100-charged:before {
+    content: "\e9aa"
+}
+
+.gnome-icon-battery-level-100:before {
+    content: "\e9ab"
+}
+
+.gnome-icon-battery-low:before {
+    content: "\e9ac"
+}
+
+.gnome-icon-battery-missing:before {
+    content: "\e9ad"
+}
+
+.gnome-icon-bluetooth-acquiring:before {
+    content: "\e9ae"
+}
+
+.gnome-icon-bluetooth-active:before {
+    content: "\e9af"
+}
+
+.gnome-icon-bluetooth-disabled:before {
+    content: "\e9b0"
+}
+
+.gnome-icon-bluetooth-disconnected:before {
+    content: "\e9b1"
+}
+
+.gnome-icon-bluetooth-hardware-disabled:before {
+    content: "\e9b2"
+}
+
+.gnome-icon-call-incoming:before {
+    content: "\e9b3"
+}
+
+.gnome-icon-call-missed:before {
+    content: "\e9b4"
+}
+
+.gnome-icon-call-outgoing:before {
+    content: "\e9b5"
+}
+
+.gnome-icon-camera-disabled:before {
+    content: "\e9b6"
+}
+
+.gnome-icon-camera-hardware-disabled:before {
+    content: "\e9b7"
+}
+
+.gnome-icon-changes-allow:before {
+    content: "\e9b8"
+}
+
+.gnome-icon-changes-prevent:before {
+    content: "\e9b9"
+}
+
+.gnome-icon-channel-insecure:before {
+    content: "\e9ba"
+}
+
+.gnome-icon-channel-secure:before {
+    content: "\e9bb"
+}
+
+.gnome-icon-computer-fail:before {
+    content: "\e9bc"
+}
+
+.gnome-icon-content-loading:before {
+    content: "\e9bd"
+}
+
+.gnome-icon-daytime-sunrise:before {
+    content: "\e9be"
+}
+
+.gnome-icon-daytime-sunset:before {
+    content: "\e9bf"
+}
+
+.gnome-icon-dialog-error:before {
+    content: "\e9c0"
+}
+
+.gnome-icon-dialog-information:before {
+    content: "\e9c1"
+}
+
+.gnome-icon-dialog-password:before {
+    content: "\e9c2"
+}
+
+.gnome-icon-dialog-question:before {
+    content: "\e9c3"
+}
+
+.gnome-icon-dialog-warning:before {
+    content: "\e9c4"
+}
+
+.gnome-icon-display-brightness:before {
+    content: "\e9c5"
+}
+
+.gnome-icon-folder-drag-accept:before {
+    content: "\e9c6"
+}
+
+.gnome-icon-folder-open:before {
+    content: "\e9c7"
+}
+
+.gnome-icon-folder-visiting:before {
+    content: "\e9c8"
+}
+
+.gnome-icon-image-loading:before {
+    content: "\e9c9"
+}
+
+.gnome-icon-image-missing:before {
+    content: "\e9ca"
+}
+
+.gnome-icon-keyboard-brightness:before {
+    content: "\e9cb"
+}
+
+.gnome-icon-location-services-active:before {
+    content: "\e9cc"
+}
+
+.gnome-icon-location-services-disabled:before {
+    content: "\e9cd"
+}
+
+.gnome-icon-mail-attachment:before {
+    content: "\e9ce"
+}
+
+.gnome-icon-mail-read:before {
+    content: "\e9cf"
+}
+
+.gnome-icon-mail-replied-rtl:before {
+    content: "\e9d0"
+}
+
+.gnome-icon-mail-replied:before {
+    content: "\e9d1"
+}
+
+.gnome-icon-mail-replied-rtl:before {
+    content: "\e9d2"
+}
+
+.gnome-icon-mail-unread:before {
+    content: "\e9d3"
+}
+
+.gnome-icon-media-playlist-consecutive:before {
+    content: "\e9d4"
+}
+
+.gnome-icon-media-playlist-repeat-song:before {
+    content: "\e9d5"
+}
+
+.gnome-icon-media-playlist-repeat:before {
+    content: "\e9d6"
+}
+
+.gnome-icon-media-playlist-shuffle:before {
+    content: "\e9d7"
+}
+
+.gnome-icon-microphone-disabled:before {
+    content: "\e9d8"
+}
+
+.gnome-icon-microphone-hardware-disabled:before {
+    content: "\e9d9"
+}
+
+.gnome-icon-microphone-sensitivity-high:before {
+    content: "\e9da"
+}
+
+.gnome-icon-microphone-sensitivity-low:before {
+    content: "\e9db"
+}
+
+.gnome-icon-microphone-sensitivity-medium:before {
+    content: "\e9dc"
+}
+
+.gnome-icon-microphone-sensitivity-muted:before {
+    content: "\e9dd"
+}
+
+.gnome-icon-network-cellular-2g:before {
+    content: "\e9de"
+}
+
+.gnome-icon-network-cellular-3g:before {
+    content: "\e9df"
+}
+
+.gnome-icon-network-cellular-4g:before {
+    content: "\e9e0"
+}
+
+.gnome-icon-network-cellular-5g:before {
+    content: "\e9e1"
+}
+
+.gnome-icon-network-cellular-acquiring-rtl:before {
+    content: "\e9e2"
+}
+
+.gnome-icon-network-cellular-acquiring:before {
+    content: "\e9e3"
+}
+
+.gnome-icon-network-cellular-acquiring-rtl:before {
+    content: "\e9e4"
+}
+
+.gnome-icon-network-cellular-connected:before {
+    content: "\e9e5"
+}
+
+.gnome-icon-network-cellular-disabled-rtl:before {
+    content: "\e9e6"
+}
+
+.gnome-icon-network-cellular-disabled:before {
+    content: "\e9e7"
+}
+
+.gnome-icon-network-cellular-disabled-rtl:before {
+    content: "\e9e8"
+}
+
+.gnome-icon-network-cellular-edge:before {
+    content: "\e9e9"
+}
+
+.gnome-icon-network-cellular-gprs:before {
+    content: "\e9ea"
+}
+
+.gnome-icon-network-cellular-hardware-disabled-rtl:before {
+    content: "\e9eb"
+}
+
+.gnome-icon-network-cellular-hardware-disabled:before {
+    content: "\e9ec"
+}
+
+.gnome-icon-network-cellular-hardware-disabled-rtl:before {
+    content: "\e9ed"
+}
+
+.gnome-icon-network-cellular-hspa:before {
+    content: "\e9ee"
+}
+
+.gnome-icon-network-cellular-no-route-rtl:before {
+    content: "\e9ef"
+}
+
+.gnome-icon-network-cellular-no-route:before {
+    content: "\e9f0"
+}
+
+.gnome-icon-network-cellular-no-route-rtl:before {
+    content: "\e9f1"
+}
+
+.gnome-icon-network-cellular-offline-rtl:before {
+    content: "\e9f2"
+}
+
+.gnome-icon-network-cellular-offline:before {
+    content: "\e9f3"
+}
+
+.gnome-icon-network-cellular-offline-rtl:before {
+    content: "\e9f4"
+}
+
+.gnome-icon-network-cellular-signal-excellent-rtl:before {
+    content: "\e9f5"
+}
+
+.gnome-icon-network-cellular-signal-excellent:before {
+    content: "\e9f6"
+}
+
+.gnome-icon-network-cellular-signal-excellent-rtl:before {
+    content: "\e9f7"
+}
+
+.gnome-icon-network-cellular-signal-good-rtl:before {
+    content: "\e9f8"
+}
+
+.gnome-icon-network-cellular-signal-good:before {
+    content: "\e9f9"
+}
+
+.gnome-icon-network-cellular-signal-good-rtl:before {
+    content: "\e9fa"
+}
+
+.gnome-icon-network-cellular-signal-none-rtl:before {
+    content: "\e9fb"
+}
+
+.gnome-icon-network-cellular-signal-none:before {
+    content: "\e9fc"
+}
+
+.gnome-icon-network-cellular-signal-none-rtl:before {
+    content: "\e9fd"
+}
+
+.gnome-icon-network-cellular-signal-ok-rtl:before {
+    content: "\e9fe"
+}
+
+.gnome-icon-network-cellular-signal-ok:before {
+    content: "\e9ff"
+}
+
+.gnome-icon-network-cellular-signal-ok-rtl:before {
+    content: "\ea00"
+}
+
+.gnome-icon-network-cellular-signal-weak-rtl:before {
+    content: "\ea01"
+}
+
+.gnome-icon-network-cellular-signal-weak:before {
+    content: "\ea02"
+}
+
+.gnome-icon-network-cellular-signal-weak-rtl:before {
+    content: "\ea03"
+}
+
+.gnome-icon-network-error:before {
+    content: "\ea04"
+}
+
+.gnome-icon-network-idle:before {
+    content: "\ea05"
+}
+
+.gnome-icon-network-no-route:before {
+    content: "\ea06"
+}
+
+.gnome-icon-network-offline:before {
+    content: "\ea07"
+}
+
+.gnome-icon-network-receive:before {
+    content: "\ea08"
+}
+
+.gnome-icon-network-receive-rtl:before {
+    content: "\ea09"
+}
+
+.gnome-icon-network-transmit-receive:before {
+    content: "\ea0a"
+}
+
+.gnome-icon-network-transmit:before {
+    content: "\ea0b"
+}
+
+.gnome-icon-network-transmit-rtl:before {
+    content: "\ea0c"
+}
+
+.gnome-icon-network-vpn-acquiring:before {
+    content: "\ea0d"
+}
+
+.gnome-icon-network-vpn-disabled:before {
+    content: "\ea0e"
+}
+
+.gnome-icon-network-vpn-disconnected:before {
+    content: "\ea0f"
+}
+
+.gnome-icon-network-vpn-no-route:before {
+    content: "\ea10"
+}
+
+.gnome-icon-network-vpn:before {
+    content: "\ea11"
+}
+
+.gnome-icon-network-wired-acquiring:before {
+    content: "\ea12"
+}
+
+.gnome-icon-network-wired-disconnected:before {
+    content: "\ea13"
+}
+
+.gnome-icon-network-wired-no-route:before {
+    content: "\ea14"
+}
+
+.gnome-icon-network-wireless-acquiring:before {
+    content: "\ea15"
+}
+
+.gnome-icon-network-wireless-connected:before {
+    content: "\ea16"
+}
+
+.gnome-icon-network-wireless-disabled:before {
+    content: "\ea17"
+}
+
+.gnome-icon-network-wireless-encrypted:before {
+    content: "\ea18"
+}
+
+.gnome-icon-network-wireless-hardware-disabled:before {
+    content: "\ea19"
+}
+
+.gnome-icon-network-wireless-hotspot:before {
+    content: "\ea1a"
+}
+
+.gnome-icon-network-wireless-no-route:before {
+    content: "\ea1b"
+}
+
+.gnome-icon-network-wireless-offline:before {
+    content: "\ea1c"
+}
+
+.gnome-icon-network-wireless-signal-excellent:before {
+    content: "\ea1d"
+}
+
+.gnome-icon-network-wireless-signal-good:before {
+    content: "\ea1e"
+}
+
+.gnome-icon-network-wireless-signal-none:before {
+    content: "\ea1f"
+}
+
+.gnome-icon-network-wireless-signal-ok:before {
+    content: "\ea20"
+}
+
+.gnome-icon-network-wireless-signal-weak:before {
+    content: "\ea21"
+}
+
+.gnome-icon-night-light-disabled:before {
+    content: "\ea22"
+}
+
+.gnome-icon-night-light:before {
+    content: "\ea23"
+}
+
+.gnome-icon-non-starred:before {
+    content: "\ea24"
+}
+
+.gnome-icon-notifications-disabled:before {
+    content: "\ea25"
+}
+
+.gnome-icon-orientation-landscape-inverse:before {
+    content: "\ea26"
+}
+
+.gnome-icon-orientation-landscape:before {
+    content: "\ea27"
+}
+
+.gnome-icon-orientation-portrait-left:before {
+    content: "\ea28"
+}
+
+.gnome-icon-orientation-portrait-left-rtl:before {
+    content: "\ea29"
+}
+
+.gnome-icon-orientation-portrait-right:before {
+    content: "\ea2a"
+}
+
+.gnome-icon-orientation-portrait-right-rtl:before {
+    content: "\ea2b"
+}
+
+.gnome-icon-power-profile-balanced:before {
+    content: "\ea2c"
+}
+
+.gnome-icon-power-profile-performance:before {
+    content: "\ea2d"
+}
+
+.gnome-icon-power-profile-power-saver:before {
+    content: "\ea2e"
+}
+
+.gnome-icon-printer-error:before {
+    content: "\ea2f"
+}
+
+.gnome-icon-printer-printing:before {
+    content: "\ea30"
+}
+
+.gnome-icon-printer-warning:before {
+    content: "\ea31"
+}
+
+.gnome-icon-rotation-allowed:before {
+    content: "\ea32"
+}
+
+.gnome-icon-rotation-locked:before {
+    content: "\ea33"
+}
+
+.gnome-icon-screen-shared:before {
+    content: "\ea34"
+}
+
+.gnome-icon-security-high:before {
+    content: "\ea35"
+}
+
+.gnome-icon-security-low:before {
+    content: "\ea36"
+}
+
+.gnome-icon-security-medium-rtl:before {
+    content: "\ea37"
+}
+
+.gnome-icon-security-medium:before {
+    content: "\ea38"
+}
+
+.gnome-icon-security-medium-rtl:before {
+    content: "\ea39"
+}
+
+.gnome-icon-semi-starred-rtl:before {
+    content: "\ea3a"
+}
+
+.gnome-icon-semi-starred:before {
+    content: "\ea3b"
+}
+
+.gnome-icon-semi-starred-rtl:before {
+    content: "\ea3c"
+}
+
+.gnome-icon-software-update-available:before {
+    content: "\ea3d"
+}
+
+.gnome-icon-software-update-urgent:before {
+    content: "\ea3e"
+}
+
+.gnome-icon-starred:before {
+    content: "\ea3f"
+}
+
+.gnome-icon-system-lock-screen:before {
+    content: "\ea40"
+}
+
+.gnome-icon-task-due:before {
+    content: "\ea41"
+}
+
+.gnome-icon-task-past-due:before {
+    content: "\ea42"
+}
+
+.gnome-icon-thunderbolt-acquiring:before {
+    content: "\ea43"
+}
+
+.gnome-icon-touch-disabled:before {
+    content: "\ea44"
+}
+
+.gnome-icon-touchpad-disabled:before {
+    content: "\ea45"
+}
+
+.gnome-icon-user-available:before {
+    content: "\ea46"
+}
+
+.gnome-icon-user-away:before {
+    content: "\ea47"
+}
+
+.gnome-icon-user-busy:before {
+    content: "\ea48"
+}
+
+.gnome-icon-user-idle:before {
+    content: "\ea49"
+}
+
+.gnome-icon-user-invisible:before {
+    content: "\ea4a"
+}
+
+.gnome-icon-user-not-tracked:before {
+    content: "\ea4b"
+}
+
+.gnome-icon-user-offline:before {
+    content: "\ea4c"
+}
+
+.gnome-icon-user-status-pending:before {
+    content: "\ea4d"
+}
+
+.gnome-icon-user-trash-full:before {
+    content: "\ea4e"
+}
+
+.gnome-icon-view-wrapped-rtl:before {
+    content: "\ea4f"
+}
+
+.gnome-icon-view-wrapped:before {
+    content: "\ea50"
+}
+
+.gnome-icon-view-wrapped-rtl:before {
+    content: "\ea51"
+}
+
+.gnome-icon-weather-clear-night:before {
+    content: "\ea52"
+}
+
+.gnome-icon-weather-clear:before {
+    content: "\ea53"
+}
+
+.gnome-icon-weather-few-clouds-night:before {
+    content: "\ea54"
+}
+
+.gnome-icon-weather-few-clouds:before {
+    content: "\ea55"
+}
+
+.gnome-icon-weather-fog:before {
+    content: "\ea56"
+}
+
+.gnome-icon-weather-overcast:before {
+    content: "\ea57"
+}
+
+.gnome-icon-weather-severe-alert:before {
+    content: "\ea58"
+}
+
+.gnome-icon-weather-showers-scattered:before {
+    content: "\ea59"
+}
+
+.gnome-icon-weather-showers:before {
+    content: "\ea5a"
+}
+
+.gnome-icon-weather-snow:before {
+    content: "\ea5b"
+}
+
+.gnome-icon-weather-storm:before {
+    content: "\ea5c"
+}
+
+.gnome-icon-weather-tornado:before {
+    content: "\ea5d"
+}
+
+.gnome-icon-weather-windy:before {
+    content: "\ea5e"
+}
+
+.gnome-icon-checkbox-checked:before {
+    content: "\ea5f"
+}
+
+.gnome-icon-checkbox-mixed:before {
+    content: "\ea60"
+}
+
+.gnome-icon-checkbox:before {
+    content: "\ea61"
+}
+
+.gnome-icon-focus-legacy-systray:before {
+    content: "\ea62"
+}
+
+.gnome-icon-focus-top-bar:before {
+    content: "\ea63"
+}
+
+.gnome-icon-focus-windows:before {
+    content: "\ea64"
+}
+
+.gnome-icon-list-drag-handle:before {
+    content: "\ea65"
+}
+
+.gnome-icon-pan-down:before {
+    content: "\ea66"
+}
+
+.gnome-icon-pan-end-rtl:before {
+    content: "\ea67"
+}
+
+.gnome-icon-pan-start:before {
+    content: "\ea68"
+}
+
+.gnome-icon-pan-up:before {
+    content: "\ea69"
+}
+
+.gnome-icon-radio-checked:before {
+    content: "\ea6a"
+}
+
+.gnome-icon-radio-mixed:before {
+    content: "\ea6b"
+}
+
+.gnome-icon-radio:before {
+    content: "\ea6c"
+}
+
+.gnome-icon-selection-end:before {
+    content: "\ea6d"
+}
+
+.gnome-icon-selection-end-rtl:before {
+    content: "\ea6e"
+}
+
+.gnome-icon-selection-start-rtl:before {
+    content: "\ea6f"
+}
+
+.gnome-icon-selection-start:before {
+    content: "\ea70"
+}
+
+.gnome-icon-window-close:before {
+    content: "\ea71"
+}
+
+.gnome-icon-window-new:before {
+    content: "\ea72"
+}
+
+.gnome-icon-window-minimize:before {
+    content: "\ea73"
+}
+
+.gnome-icon-window-restore:before {
+    content: "\ea74"
+}
+
+.gnome-icon-pan-end:before {
+    content: "\ea75"
+}
+
+.gnome-icon-window-maximize:before {
+    content: "\ea76"
+}
+
+.gnome-icon-pan-start-rtl:before {
+    content: "\ea77"
+}
