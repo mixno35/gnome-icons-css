@@ -7,27 +7,26 @@
 }
 
 [class*=" gnome-icon-"],[class^=gnome-icon-] {
-    display: inline-block;
+    display: inline-flex;
     aspect-ratio: 1/1;
     width: 1em;
     height: auto;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 [class*=" gnome-icon-"]:before,[class^=gnome-icon-]:before {
     font-family: gnome;
     font-style: normal;
     font-weight: 400;
     speak: never;
-    display: inline-block;
+    display: inline-flex;
     text-decoration: inherit;
     text-align: center;
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .gnome-icon-action-unavailable:before {
