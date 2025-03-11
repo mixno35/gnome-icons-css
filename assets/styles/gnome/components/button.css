@@ -1,0 +1,96 @@
+.gnome-button {
+    --ctx-gnome-button-height: 36px;
+}
+.gnome-button.pill {
+    --ctx-gnome-button-height: 48px;
+}
+.gnome-button.small {
+    --ctx-gnome-button-height: 24px;
+}
+
+.gnome-button {
+    --ctx-gnome-button-background: var(--gnome-color-primary-blue-3);
+    --ctx-gnome-button-background-hover: var(--gnome-color-primary-blue-4);
+    --ctx-gnome-button-background-active: var(--gnome-color-primary-blue-5);
+
+    --ctx-gnome-button-text: var(--gnome-color-light-1);
+}
+.gnome-button.flat {
+    --ctx-gnome-button-background: transparent;
+    --ctx-gnome-button-background-hover: var(--gnome-color-light-3);
+    --ctx-gnome-button-background-active: var(--gnome-color-light-4);
+
+    --ctx-gnome-button-text: var(--gnome-color-dark-5);
+}
+.gnome-button:disabled:not(.flat) {
+    --ctx-gnome-button-background: var(--gnome-color-light-4);
+}
+.gnome-button:disabled {
+    cursor: not-allowed;
+
+    --ctx-gnome-button-text: var(--gnome-color-light-5);
+}
+
+.gnome-button:not(:disabled) {
+    cursor: pointer;
+}
+
+.gnome-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    background-color: var(--ctx-gnome-button-background);
+
+    height: var(--ctx-gnome-button-height);
+    max-height: var(--ctx-gnome-button-height);
+    min-height: var(--ctx-gnome-button-height);
+    min-width: 80px;
+
+    padding: 0 16px;
+
+    border: none;
+    border-radius: 6px;
+
+    outline: none;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--ctx-gnome-button-text);
+
+    transition: background-color 0.2s ease-in-out;
+}
+.gnome-button:not(:disabled):hover {
+    background-color: var(--ctx-gnome-button-background-hover);
+}
+.gnome-button:not(:disabled):active {
+    background-color: var(--ctx-gnome-button-background-active);
+}
+
+.gnome-button > span {
+    line-height: 1.6;
+}
+
+.gnome-button.opaque {
+    min-width: unset;
+    max-width: unset;
+    width: unset;
+
+    padding: 0;
+
+    aspect-ratio: 1 / 1;
+}
+.gnome-button.pill {
+    padding: 0 24px;
+}
+
+.gnome-button.circular {
+    border-radius: 99px;
+}
+.gnome-button.pill {
+    border-radius: 12px;
+}
