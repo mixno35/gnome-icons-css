@@ -1,0 +1,32 @@
+{
+  "name": "gnome-icons-css",
+  "version": "1.0.0",
+  "description": "A collection of GNOME-themed custom web icons as CSS.",
+  "main": "css/gnome-icons.css",
+  "files": [
+    "css/gnome-icons.css",
+    "dist/gnome.woff",
+    "dist/gnome.woff2",
+    "dist/gnome.ttf",
+    "dist/gnome.eot",
+    "dist/gnome.svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixno35/gnome-icons-css.git"
+  },
+  "keywords": [
+    "icons",
+    "font-icons",
+    "web-icons",
+    "custom-icons",
+    "gnome-icons",
+    "css"
+  ],
+  "author": "mixno35",
+  "license": "GNU GPLv3",
+  "homepage": "https://github.com/mixno35/gnome-icons-css",
+  "bugs": {
+    "url": "https://github.com/mixno35/gnome-icons-css/issues"
+  }
+}
