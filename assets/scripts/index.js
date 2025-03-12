@@ -50,11 +50,22 @@ if (containerContent) {
             index = end;
 
             if (index < icons.length) {
-                requestIdleCallback(renderBatch);
+                alternateIdleCallback(renderBatch);
             }
         }
 
-        requestIdleCallback(renderBatch);
+        alternateIdleCallback(renderBatch);
+    }
+}
+
+/**
+ * @param {Function} callback
+ */
+function alternateIdleCallback(callback) {
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(callback);
+    } else {
+        setTimeout(callback, 10);
     }
 }
 
@@ -93,11 +104,17 @@ function openModalIconResult(iconName) {
 }
 
 function copyToClipboard(text, event) {
-    navigator.clipboard.writeText(text).then(r => {
+    navigator.clipboard.writeText(text).then(() => {
         event.target.innerText = 'Copied!';
         setTimeout(() => {
             event.target.innerText = 'Copy';
         }, 1000);
         console.log('Async: Copying to clipboard was successful!');
+    }).catch(err => {
+        event.target.innerText = 'Failed to copy';
+        setTimeout(() => {
+            event.target.innerText = 'Copy';
+        }, 1000);
+        console.error('Async: Could not copy text: ', err);
     });
 }
