@@ -9,13 +9,13 @@
 [class*=" gnome-icon-"],[class^=gnome-icon-] {
     display: inline-flex;
     aspect-ratio: 1/1;
-    width: 1em;
+    width: auto;
     height: auto;
     position: relative;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 1px;
+    padding: .1em;
 }
 [class*=" gnome-icon-"]:before,[class^=gnome-icon-]:before {
     font-family: gnome;
@@ -29,6 +29,7 @@
     text-transform: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding: 1px;
 }
 
 .gnome-icon-action-unavailable:before {
