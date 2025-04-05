@@ -1,0 +1,55 @@
+:root {
+    --gnome-color-primary-blue-1: rgb(153, 193, 241);
+    --gnome-color-primary-blue-2: rgb(98, 160, 234);
+    --gnome-color-primary-blue-3: rgb(53, 132, 228);
+    --gnome-color-primary-blue-4: rgb(28, 113, 216);
+    --gnome-color-primary-blue-5: rgb(26, 95, 180);
+
+    --gnome-color-primary-green-1: rgb(143, 240, 164);
+    --gnome-color-primary-green-2: rgb(87, 227, 137);
+    --gnome-color-primary-green-3: rgb(51, 209, 122);
+    --gnome-color-primary-green-4: rgb(46, 194, 126);
+    --gnome-color-primary-green-5: rgb(38, 162, 105);
+
+    --gnome-color-primary-yellow-1: rgb(249, 240, 107);
+    --gnome-color-primary-yellow-2: rgb(248, 228, 92);
+    --gnome-color-primary-yellow-3: rgb(246, 211, 45);
+    --gnome-color-primary-yellow-4: rgb(245, 194, 17);
+    --gnome-color-primary-yellow-5: rgb(229, 165, 10);
+
+    --gnome-color-primary-orange-1: rgb(255, 190, 111);
+    --gnome-color-primary-orange-2: rgb(255, 163, 72);
+    --gnome-color-primary-orange-3: rgb(255, 120, 0);
+    --gnome-color-primary-orange-4: rgb(230, 97, 0);
+    --gnome-color-primary-orange-5: rgb(198, 70, 0);
+
+    --gnome-color-primary-red-1: rgb(246, 97, 81);
+    --gnome-color-primary-red-2: rgb(237, 51, 59);
+    --gnome-color-primary-red-3: rgb(224, 27, 36);
+    --gnome-color-primary-red-4: rgb(192, 28, 40);
+    --gnome-color-primary-red-5: rgb(165, 29, 45);
+
+    --gnome-color-primary-purple-1: rgb(220, 138, 221);
+    --gnome-color-primary-purple-2: rgb(192, 97, 203);
+    --gnome-color-primary-purple-3: rgb(145, 65, 172);
+    --gnome-color-primary-purple-4: rgb(129, 61, 156);
+    --gnome-color-primary-purple-5: rgb(97, 53, 131);
+
+    --gnome-color-primary-brown-1: rgb(205, 171, 143);
+    --gnome-color-primary-brown-2: rgb(181, 131, 90);
+    --gnome-color-primary-brown-3: rgb(152, 106, 68);
+    --gnome-color-primary-brown-4: rgb(134, 94, 60);
+    --gnome-color-primary-brown-5: rgb(99, 69, 44);
+
+    --gnome-color-light-1: rgb(255, 255, 255);
+    --gnome-color-light-2: rgb(246, 245, 244);
+    --gnome-color-light-3: rgb(222, 221, 218);
+    --gnome-color-light-4: rgb(192, 191, 188);
+    --gnome-color-light-5: rgb(154, 153, 150);
+    
+    --gnome-color-dark-1: rgb(65, 72, 73);
+    --gnome-color-dark-2: rgb(38, 40, 42);
+    --gnome-color-dark-3: rgb(28, 29, 30);
+    --gnome-color-dark-4: rgb(19, 20, 21);
+    --gnome-color-dark-5: rgb(11, 12, 13);
+}
